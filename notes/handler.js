@@ -2,31 +2,31 @@
 let log = require("./lib/logger");
 
 const response = (statusCode, message) => {
-  return {
-    statusCode,
-    body: JSON.stringify(message)
-  };
+    return {
+        statusCode,
+        body: JSON.stringify(message),
+    };
 };
 
-module.exports.createNotes = async event => {
-  let data = JSON.parse(event.body);
-  try {
-    // create note database call
-    log({
-      type: "INFO",
-      payload: data
-    });
-    return response(201, data);
-    
-  } catch (e) {
-    log({
-      type: "CRITICAL",
-      message: e.message,
-      callstack: e.stack,
-      payload: data
-    });
-    return response(500, e);
-  }
+module.exports.createNotes = async (event) => {
+    let data = JSON.parse(event.body);
+    try {
+        // create note database call
+        throw new Error('too many connections');
+        log({
+            type: 'INFO',
+            payload: data,
+        });
+        return response(201, data);
+    } catch (e) {
+        log({
+            type: 'CRITICAL',
+            message: e.message,
+            callstack: e.stack,
+            payload: data,
+        });
+        return response(500, e);
+    }
 };
 
 module.exports.getNotesById = async event => {

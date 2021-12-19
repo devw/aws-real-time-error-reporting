@@ -1,0 +1,9 @@
+@host=https://81pgrcqdeg.execute-api.eu-west-3.amazonaws.com/dev
+
+POST {{host}}/notes HTTP/1.1
+content-type: application/json
+
+{
+    "id": 100,
+    "title": "test title"
+}

@@ -1,0 +1,10 @@
+{
+    "name": "notes",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "info:dev": "sls info --aws-profile antonio",
+        "deploy:dev": "sls deploy --aws-profile antonio"
+    }
+}
