@@ -12,7 +12,8 @@ module.exports.createNotes = async (event) => {
     let data = JSON.parse(event.body);
     try {
         // create note database call
-        throw new Error('too many connections');
+        await new Promise((res) => setTimeout(() => res('ok'), 1_501));
+        // throw new Error('too many connections');
         log({
             type: 'INFO',
             payload: data,

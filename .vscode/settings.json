@@ -1,0 +1,29 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#a4bb0b",
+    "titleBar.activeBackground": "#a4bb0b",
+    "titleBar.activeForeground": "#F9FAF2"
+  },
+  "restoreTerminals.terminals": [
+    {
+      "splitTerminals": [
+        {
+          "name": "logging",
+          "commands": [
+            "cd logging"
+          ]
+        }
+      ]
+    },
+    {
+      "splitTerminals": [
+        {
+          "name": "notes",
+          "commands": [
+            "cd notes"
+          ]
+        }
+      ]
+    }
+  ]
+}
