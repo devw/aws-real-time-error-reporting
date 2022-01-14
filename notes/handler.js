@@ -12,8 +12,6 @@ module.exports.createNotes = async (event) => {
     let data = JSON.parse(event.body);
     try {
         // create note database call
-        await new Promise((res) => setTimeout(() => res('ok'), 1_501));
-        // throw new Error('too many connections');
         log({
             type: 'INFO',
             payload: data,
@@ -30,17 +28,17 @@ module.exports.createNotes = async (event) => {
     }
 };
 
-module.exports.getNotesById = async event => {
-  const noteId = event.pathParameters.id;
+module.exports.getNotesById = async (event) => {
+    const noteId = event.pathParameters.id;
 
-  // get notes database call
-  const queryTime = 500;
-  if (queryTime > 100) {
-    log({
-      type: "WARNING",
-      message: `Query time ${queryTime} is longer than accepted 100ms`,
-      payload: `Note Id: ${noteId}`
-    });
-  }
-  return response(200, ["note1", "note2", "note3"]);
+    // get notes database call
+    const queryTime = 500;
+    if (queryTime > 100) {
+        log({
+            type: 'WARNING',
+            message: `Query time ${queryTime} is longer than accepted 100ms`,
+            payload: `Note Id: ${noteId}`,
+        });
+    }
+    return response(200, ['note1', 'note2', 'note3']);
 };
