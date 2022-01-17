@@ -4,6 +4,7 @@
     "titleBar.activeBackground": "#a4bb0b",
     "titleBar.activeForeground": "#F9FAF2"
   },
+  "editor.formatOnSave": true,
   "restoreTerminals.terminals": [
     {
       "splitTerminals": [

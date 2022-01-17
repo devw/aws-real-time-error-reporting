@@ -1,14 +1,18 @@
 {
-  "name": "logging",
-  "version": "1.0.0",
-  "description": "",
-  "main": "handler.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "aws-sdk": "^2.678.0"
-  }
+    "name": "logging",
+    "version": "1.0.0",
+    "description": "",
+    "main": "handler.js",
+    "scripts": {
+        "info:dev": "sls info --aws-profile francesca",
+        "deploy:dev": "sls deploy --aws-profile francesca"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "aws-sdk": "^2.678.0"
+    },
+    "devDependencies": {
+        "serverless-pseudo-parameters": "^2.6.1"
+    }
 }
