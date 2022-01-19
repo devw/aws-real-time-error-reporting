@@ -1,11 +1,12 @@
 {
-    "name": "logging",
+    "name": "send-error-report",
     "version": "1.0.0",
     "description": "",
     "main": "handler.js",
     "scripts": {
-        "info:dev": "sls info --aws-profile antonio",
-        "deploy:dev": "sls deploy --aws-profile antonio"
+        "info:dev": "sls info --aws-profile antonio --stage dev",
+        "deploy:dev": "sls deploy --aws-profile antonio --stage dev",
+        "deploy:prod": "sls deploy --aws-profile alfred-prod --stage prod"
     },
     "author": "",
     "license": "ISC",

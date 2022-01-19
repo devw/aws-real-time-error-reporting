@@ -11,7 +11,7 @@ custom:
 provider:
   name: aws
   runtime: nodejs14.x
-  stage: dev
+  stage: ${opt:stage, 'dev'}
   region: eu-west-3
   lambdaHashingVersion: 20201221
 

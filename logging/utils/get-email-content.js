@@ -1,9 +1,13 @@
-const { AWS_EMAIL, AWS_SES_ARN } = process.env;
+const cleanLog = (log) => {
+    const value = log.split('\tINFO\t')[1];
+    return JSON.parse(value.replace(/[\n\t]/g, '').replace(/\s{2,}/g, ' '));
+};
 
 module.exports.getEmailContent = (data, message) => {
     let events = data.events;
     let logData = '<br/><h2><u>Application Logs</u></h2>';
     for (let i in events) {
+        events[i].message = cleanLog(events[i].message);
         logData += `<pre>${JSON.stringify(events[i], null, 4)}</pre>`;
     }
 
@@ -12,36 +16,22 @@ module.exports.getEmailContent = (data, message) => {
         message.AWSAccountId
     }<br/>Region:${message.Region}<br/>Alarm Time:${date.toString()}<br/>${logData}`;
     let subject = `Details for Alarm - ${message.AlarmName} [URGENT]`;
+    console.log('subject:', subject);
 
-    let emailContent = {
-        Destination: {
-            ToAddresses: [AWS_EMAIL],
-        },
-        Message: {
-            Body: {
-                Html: {
-                    Charset: 'UTF-8',
-                    Data: text,
-                },
-                Text: {
-                    Charset: 'UTF-8',
-                    Data: text,
-                },
-            },
-            Subject: {
+    return {
+        Body: {
+            Html: {
                 Charset: 'UTF-8',
-                Data: subject,
+                Data: text,
+            },
+            Text: {
+                Charset: 'UTF-8',
+                Data: text,
             },
         },
-        Source: AWS_EMAIL,
-        SourceArn: AWS_SES_ARN,
-        Tags: [
-            {
-                Name: 'sender',
-                Value: 'Antonio',
-            },
-        ],
+        Subject: {
+            Charset: 'UTF-8',
+            Data: subject,
+        },
     };
-
-    return emailContent;
 };
