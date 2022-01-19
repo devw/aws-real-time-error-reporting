@@ -4,15 +4,13 @@
     "description": "",
     "main": "handler.js",
     "scripts": {
-        "info:dev": "sls info --aws-profile francesca",
-        "deploy:dev": "sls deploy --aws-profile francesca"
+        "info:dev": "sls info --aws-profile antonio",
+        "deploy:dev": "sls deploy --aws-profile antonio"
     },
     "author": "",
     "license": "ISC",
-    "dependencies": {
-        "aws-sdk": "^2.678.0"
-    },
+    "dependencies": {},
     "devDependencies": {
-        "serverless-pseudo-parameters": "^2.6.1"
+        "aws-sdk": "^2.678.0"
     }
 }
