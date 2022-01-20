@@ -12,7 +12,7 @@ provider:
   name: aws
   runtime: nodejs14.x
   stage: ${opt:stage, 'dev'}
-  region: eu-west-3
+  region: eu-west-1
   lambdaHashingVersion: 20201221
 
   environment:
