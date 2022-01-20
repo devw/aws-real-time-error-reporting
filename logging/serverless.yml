@@ -1,14 +1,37 @@
-service: logging
+service: send-error-report
+
+custom:
+  SNS:
+    topic: ${self:service}-sns-topic
+  SES: 
+    arn: arn:aws:ses:${aws:region}:${aws:accountId}:identity/${self.environment.AWS_EMAIL}
+  LOGS: 
+    arn: arn:aws:logs:${aws:region}:${aws:accountId}:log-group:*
 
 provider:
   name: aws
   runtime: nodejs14.x
-  stage: dev
-  region: us-west-3
-  role: arn:aws:iam::729503035905:role/myapp-logging-role
+  stage: ${opt:stage, 'dev'}
+  region: eu-west-1
+  lambdaHashingVersion: 20201221
+
+  environment:
+    AWS_EMAIL: antonio.pierro@gmail.com
+    AWS_SES_ARN: arn:aws:ses:${aws:region}:${aws:accountId}:identity/antonio.pierro@gmail.com
+  
+  iamRoleStatements:
+    - Effect: Allow
+      Action: 
+        - logs:DescribeMetricFilters
+        - logs:FilterLogEvents
+      Resource: ${self:custom.LOGS.arn}
+    - Effect: Allow
+      Action: "*"
+      Resource: "*"
 
 functions:
-  dispatchErrors:
-    handler: handler.dispatchErrors
+  dispatcherErrors:
+    handler: lambdas/dispatch-error.handler
     events:
-      - sns: arn:aws:sns:us-east-1:729503035905:PRODUCTION_ERRORS
+      - sns:
+          topicName: ${self:custom.SNS.topic}

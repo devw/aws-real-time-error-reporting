@@ -1,14 +1,17 @@
 {
-  "name": "logging",
-  "version": "1.0.0",
-  "description": "",
-  "main": "handler.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "aws-sdk": "^2.678.0"
-  }
+    "name": "send-error-report",
+    "version": "1.0.0",
+    "description": "",
+    "main": "handler.js",
+    "scripts": {
+        "info:dev": "sls info --aws-profile antonio --stage dev",
+        "deploy:dev": "sls deploy --aws-profile antonio --stage dev",
+        "deploy:prod": "sls deploy --aws-profile alfred-prod --stage prod"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+        "aws-sdk": "^2.678.0"
+    }
 }

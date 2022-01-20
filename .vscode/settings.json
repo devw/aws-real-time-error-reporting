@@ -4,6 +4,13 @@
     "titleBar.activeBackground": "#a4bb0b",
     "titleBar.activeForeground": "#F9FAF2"
   },
+  "editor.formatOnSave": true,
+  "prettier": {
+    "printWidth": 140,
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 4,
+  },
   "restoreTerminals.terminals": [
     {
       "splitTerminals": [
