@@ -1,0 +1,1041 @@
+{
+    "events": [
+        {
+            "logStreamName": "2021/12/20/[$LATEST]efbaa2d894ef4241b1ccec46dae37adb",
+            "timestamp": 1640005512145,
+            "message": "2021-12-20T13:05:12.145Z\t18f703ac-b84b-4ada-99cc-b774742abea4\tINFO\t{\"order_id\":\"4327247151254\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4327247151254\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640005504353.9159\"}\n",
+            "ingestionTime": 1640005513365,
+            "eventId": "36573345050531364308682919476962739856773782926933032968"
+        },
+        {
+            "logStreamName": "2021/12/20/[$LATEST]d284cffe06334967886a15941627882c",
+            "timestamp": 1640005816497,
+            "message": "2021-12-20T13:10:16.497Z\t5c0054b2-75ff-4641-881d-bee91a36cdf9\tINFO\t{\"order_id\":\"4334101004438\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4334101004438\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640005803334.10610\"}\n",
+            "ingestionTime": 1640005824145,
+            "eventId": "36573351837807766971875134225351568286234659147479842818"
+        },
+        {
+            "logStreamName": "2021/12/20/[$LATEST]efbaa2d894ef4241b1ccec46dae37adb",
+            "timestamp": 1640006427350,
+            "message": "2021-12-20T13:20:27.350Z\tab6bf6d6-4ec7-45d7-bb46-05d0e6e2f487\tINFO\t{\"order_id\":\"4338747277462\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4338747277462\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640006403602.5657\"}\n",
+            "ingestionTime": 1640006434979,
+            "eventId": "36573365460284873729901872840322581737787043788755304450"
+        },
+        {
+            "logStreamName": "2021/12/20/[$LATEST]f23828460738434daa6297f10b8039aa",
+            "timestamp": 1640013029485,
+            "message": "2021-12-20T15:10:29.483Z\t138a345e-2417-4f50-b6ea-3731794a33dd\tINFO\t{\"order_id\":\"4331963678870\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4331963678870\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"Refund amount 135,50€ is greater than net payment received 125,00€\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640013003173.3568\"}\n",
+            "ingestionTime": 1640013036841,
+            "eventId": "36573512692815275030877495364403688759098058568741289986"
+        },
+        {
+            "logStreamName": "2021/12/22/[$LATEST]aacd19897d3c4723a05dcc0897a95af0",
+            "timestamp": 1640172909749,
+            "message": "2021-12-22T11:35:09.748Z\t6af5fac1-c515-4219-95e7-05c2fe101473\tINFO\t{\"order_id\":\"4310132949142\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4310132949142\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"1\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640172904030.10623\"}\n",
+            "ingestionTime": 1640172913045,
+            "eventId": "36577078141845012839317641882877581618941839377266573319"
+        },
+        {
+            "logStreamName": "2021/12/22/[$LATEST]af67513706ab48479bd0d28e4e324c95",
+            "timestamp": 1640177434027,
+            "message": "2021-12-22T12:50:34.027Z\t000284d3-e4a2-44e4-9448-f580eadb867b\tINFO\t{\"order_id\":\"4340454916246\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4340454916246\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"Refund amount 90,00€ is greater than net payment received 25,00€\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640177402950.2909\"}\n",
+            "ingestionTime": 1640177441560,
+            "eventId": "36577179036615898157048252898452133892728058707710705666"
+        },
+        {
+            "logStreamName": "2021/12/22/[$LATEST]af67513706ab48479bd0d28e4e324c95",
+            "timestamp": 1640177713143,
+            "message": "2021-12-22T12:55:13.142Z\t0d300bf2-b5e5-4802-9f2b-23766e512805\tINFO\t{\"order_id\":\"4341559984278\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4341559984278\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640177702873.1491\"}\n",
+            "ingestionTime": 1640177720936,
+            "eventId": "36577185261110694990121662009080670991892412192825999362"
+        },
+        {
+            "logStreamName": "2021/12/22/[$LATEST]a983996ec813420db883849ad336e416",
+            "timestamp": 1640178303766,
+            "message": "2021-12-22T13:05:03.766Z\t2128eca4-ff95-49cd-a958-f81de3a91f3f\tINFO\t{\"order_id\":\"4325655543958\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4325655543958\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640178302743.3701\"}\n",
+            "ingestionTime": 1640178311758,
+            "eventId": "36577198432443726381873894446591365377172241907348406277"
+        },
+        {
+            "logStreamName": "2021/12/22/[$LATEST]a983996ec813420db883849ad336e416",
+            "timestamp": 1640178336989,
+            "message": "2021-12-22T13:05:36.989Z\t2128eca4-ff95-49cd-a958-f81de3a91f3f\tINFO\t{\"order_id\":\"4342473982102\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4342473982102\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640178302743.3701\"}\n",
+            "ingestionTime": 1640178344549,
+            "eventId": "36577199173341384112656787117474445243253015060379860994"
+        },
+        {
+            "logStreamName": "2021/12/22/[$LATEST]b2bce4f1ebaa4e9480923f33f83b9f10",
+            "timestamp": 1640179514586,
+            "message": "2021-12-22T13:25:14.586Z\t9725433d-898c-4162-b503-07ea36e71182\tINFO\t{\"order_id\":\"4334899200150\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4334899200150\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640179503850.2994\"}\n",
+            "ingestionTime": 1640179522323,
+            "eventId": "36577225434632027666723008144352987016972320707631448066"
+        },
+        {
+            "logStreamName": "2021/12/22/[$LATEST]a983996ec813420db883849ad336e416",
+            "timestamp": 1640179811006,
+            "message": "2021-12-22T13:30:11.006Z\ta7bc55cd-6b51-4d68-a880-521aa11bc7c2\tINFO\t{\"order_id\":\"4341665071254\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4341665071254\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640179803723.8924\"}\n",
+            "ingestionTime": 1640179812738,
+            "eventId": "36577232045018919415170320109461095634140140620431556617"
+        },
+        {
+            "logStreamName": "2021/12/22/[$LATEST]b2bce4f1ebaa4e9480923f33f83b9f10",
+            "timestamp": 1640180413976,
+            "message": "2021-12-22T13:40:13.976Z\t8be174a1-9c65-48c7-81a7-f77522e9403d\tINFO\t{\"order_id\":\"4309918613654\",\"errorName\":\"Error\",\"errorMessage\":\"[{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4309918613654\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10859023597718\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":0,\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4309918613654\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"stackTrace\":\"Error: [{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4309918613654\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10859023597718\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":0,\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4309918613654\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640180402480.8042\"}\n",
+            "ingestionTime": 1640180421695,
+            "eventId": "36577245491699251773180156497436706486409004139328765954"
+        },
+        {
+            "logStreamName": "2021/12/22/[$LATEST]b2bce4f1ebaa4e9480923f33f83b9f10",
+            "timestamp": 1640181310111,
+            "message": "2021-12-22T13:55:10.111Z\t5477ed4a-9f39-45ac-8ae1-a035ef9e9f86\tINFO\t{\"order_id\":\"4340260339862\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4340260339862\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"1\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"2\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"3\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640181304466.5144\"}\n",
+            "ingestionTime": 1640181313479,
+            "eventId": "36577265476177550258420126515648367166716220803840212999"
+        },
+        {
+            "logStreamName": "2021/12/23/[$LATEST]ef01dc26287e44a68228d8d492c78152",
+            "timestamp": 1640255104339,
+            "message": "2021-12-23T10:25:04.339Z\tc1fdea4c-6498-4e08-b5dd-928f545c9b99\tINFO\t{\"order_id\":\"4311480631446\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4311480631446\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640255103451.9120\"}\n",
+            "ingestionTime": 1640255111310,
+            "eventId": "36578911142453300532489304294815863795053713167755116557"
+        },
+        {
+            "logStreamName": "2021/12/23/[$LATEST]ef01dc26287e44a68228d8d492c78152",
+            "timestamp": 1640256603899,
+            "message": "2021-12-23T10:50:03.899Z\tec6f2288-9e3b-4a7d-bece-05bee0257bb4\tINFO\t{\"order_id\":\"4289137803414\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4289137803414\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"1\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640256603039.3296\"}\n",
+            "ingestionTime": 1640256612051,
+            "eventId": "36578944583758770441070544230402052297599275381990948869"
+        },
+        {
+            "logStreamName": "2021/12/23/[$LATEST]ef01dc26287e44a68228d8d492c78152",
+            "timestamp": 1640256605395,
+            "message": "2021-12-23T10:50:05.395Z\tec6f2288-9e3b-4a7d-bece-05bee0257bb4\tINFO\t{\"order_id\":\"4328091058326\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4328091058326\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"1\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640256603039.3296\"}\n",
+            "ingestionTime": 1640256612051,
+            "eventId": "36578944617120685258072356450139486833481224194937651207"
+        },
+        {
+            "logStreamName": "2021/12/23/[$LATEST]ef01dc26287e44a68228d8d492c78152",
+            "timestamp": 1640256606679,
+            "message": "2021-12-23T10:50:06.679Z\tec6f2288-9e3b-4a7d-bece-05bee0257bb4\tINFO\t{\"order_id\":\"4332478038166\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4332478038166\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640256603039.3296\"}\n",
+            "ingestionTime": 1640256612051,
+            "eventId": "36578944645754842092985676563871349095561720368616505353"
+        },
+        {
+            "logStreamName": "2021/12/23/[$LATEST]a350ffca0dd94d71832da3cc7827287b",
+            "timestamp": 1640256904505,
+            "message": "2021-12-23T10:55:04.505Z\tc07e787b-8e6c-4d01-abcc-2ace3a53a3c9\tINFO\t{\"order_id\":\"4313107136662\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4313107136662\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"1\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640256903695.10714\"}\n",
+            "ingestionTime": 1640256912708,
+            "eventId": "36578951287496581590567044678360320939667641229459587078"
+        },
+        {
+            "logStreamName": "2021/12/23/[$LATEST]d5277407266c490a8d17544aaa2afb65",
+            "timestamp": 1640257503669,
+            "message": "2021-12-23T11:05:03.669Z\tcdebee7f-0a89-4673-9186-dfa75cdf4d58\tINFO\t{\"order_id\":\"4329040347286\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4329040347286\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"1\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640257502796.10507\"}\n",
+            "ingestionTime": 1640257511804,
+            "eventId": "36578964649300277722969329377729852807763369088811401221"
+        },
+        {
+            "logStreamName": "2021/12/23/[$LATEST]73ca9ca3dc2141f58a996c612799517c",
+            "timestamp": 1640257804375,
+            "message": "2021-12-23T11:10:04.375Z\tb96d33f6-5f59-4f5a-b404-78c8a36016d0\tINFO\t{\"order_id\":\"4325258494102\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4325258494102\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640257802748.6501\"}\n",
+            "ingestionTime": 1640257811747,
+            "eventId": "36578971355268163392318892138978648925366762217075310598"
+        },
+        {
+            "logStreamName": "2021/12/23/[$LATEST]dcc0ac7b240546dc9582e3a6a618a890",
+            "timestamp": 1640265309280,
+            "message": "2021-12-23T13:15:09.279Z\te12729b0-8542-4773-be1f-07f1b1c941aa\tINFO\t{\"order_id\":\"4321209745558\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4321209745558\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640265302466.6176\"}\n",
+            "ingestionTime": 1640265311481,
+            "eventId": "36579138720242307570785169232720315361908075386852147207"
+        },
+        {
+            "logStreamName": "2021/12/23/[$LATEST]b9558249d5aa45b88fad242f30a9ae9e",
+            "timestamp": 1640266804115,
+            "message": "2021-12-23T13:40:04.115Z\t9c26ba22-c4a8-43e1-a1e0-19415a33b31a\tINFO\t{\"order_id\":\"4270838448278\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4270838448278\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"Refund amount 153,76€ is greater than net payment received 100,00€\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640266802932.7409\"}\n",
+            "ingestionTime": 1640266811946,
+            "eventId": "36579172056176756416309214824217000981133034532935172101"
+        },
+        {
+            "logStreamName": "2021/12/23/[$LATEST]b9558249d5aa45b88fad242f30a9ae9e",
+            "timestamp": 1640267703714,
+            "message": "2021-12-23T13:55:03.713Z\tcbb9d459-b8e7-4775-b554-069c81ac7bb9\tINFO\t{\"order_id\":\"4327570374806\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4327570374806\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640267702881.5373\"}\n",
+            "ingestionTime": 1640267711895,
+            "eventId": "36579192117904836269259263414578992308177726280687026181"
+        },
+        {
+            "logStreamName": "2021/12/23/[$LATEST]108df5b72c9d4a3c9c545818cd97a586",
+            "timestamp": 1640268011195,
+            "message": "2021-12-23T14:00:11.195Z\t260c806d-4326-4847-9762-cc2a7ee2edd9\tINFO\t{\"order_id\":\"4335589752982\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4335589752982\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640268002982.7552\"}\n",
+            "ingestionTime": 1640268012000,
+            "eventId": "36579198974960270658653797959927858931887884621428097032"
+        },
+        {
+            "logStreamName": "2021/12/24/[$LATEST]4a38732bd86f4853af287285a5cc9d06",
+            "timestamp": 1640334904228,
+            "message": "2021-12-24T08:35:04.228Z\t5b0ec57a-8f1a-44ef-8202-96d5b7c71feb\tINFO\t{\"order_id\":\"4327952908438\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4327952908438\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"Refund amount 129,00€ is greater than net payment received 100,00€\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640334902416.7534\"}\n",
+            "ingestionTime": 1640334911430,
+            "eventId": "36580690739444760559179196148848905709564872027365244935"
+        },
+        {
+            "logStreamName": "2021/12/24/[$LATEST]ea7ab13038134a9fa3720390a64512b0",
+            "timestamp": 1640337603808,
+            "message": "2021-12-24T09:20:03.808Z\t99df85dd-f125-499a-8d47-543451bcccbc\tINFO\t{\"order_id\":\"4293287837846\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4293287837846\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640337602915.4136\"}\n",
+            "ingestionTime": 1640337611907,
+            "eventId": "36580750942090483608478819840519581807870563600234643461"
+        },
+        {
+            "logStreamName": "2021/12/27/[$LATEST]d90449e6a5c641dbaae79edb971b708c",
+            "timestamp": 1640594422410,
+            "message": "2021-12-27T08:40:22.409Z\t8f8998fd-97ac-4e2a-bb7e-11aff6b7bd60\tINFO\t{\"order_id\":\"4355967811734\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4355967811734\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"Refund amount 160,00€ is greater than net payment received 50,00€\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640594405107.2778\"}\n",
+            "ingestionTime": 1640594423444,
+            "eventId": "36586478188295928455568528357917614403527447561482862599"
+        },
+        {
+            "logStreamName": "2021/12/27/[$LATEST]d90449e6a5c641dbaae79edb971b708c",
+            "timestamp": 1640595003228,
+            "message": "2021-12-27T08:50:03.227Z\t3d611094-4307-425b-b5cb-dec687af640e\tINFO\t{\"order_id\":\"4338751537302\",\"errorName\":\"Error\",\"errorMessage\":\"[{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4338751537302\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10918703792278\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":\\\"0.0\\\",\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4338751537302\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"stackTrace\":\"Error: [{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4338751537302\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10918703792278\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":\\\"0.0\\\",\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4338751537302\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640595002448.5465\"}\n",
+            "ingestionTime": 1640595011461,
+            "eventId": "36586491140970153175728000889279077507096462136038981637"
+        },
+        {
+            "logStreamName": "2021/12/28/[$LATEST]a376dbe8736f48219bcda221232e481d",
+            "timestamp": 1640685613873,
+            "message": "2021-12-28T10:00:13.873Z\t0da95f0a-023d-4722-9890-84e398a58f7c\tINFO\t{\"order_id\":\"4353450442902\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4353450442902\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"1\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640685603806.1510\"}\n",
+            "ingestionTime": 1640685622143,
+            "eventId": "36588511825876572688543216908595609536180763973651922945"
+        },
+        {
+            "logStreamName": "2021/12/28/[$LATEST]a6282ef6d6494ab486869815dd078ed5",
+            "timestamp": 1640687109588,
+            "message": "2021-12-28T10:25:09.588Z\t9f97608b-3a4f-4b74-b3b9-2c6e06ffbaaa\tINFO\t{\"order_id\":\"4351224152214\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4351224152214\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640687102489.8690\"}\n",
+            "ingestionTime": 1640687111506,
+            "eventId": "36588545181435677308774210851221528169096239314608259083"
+        },
+        {
+            "logStreamName": "2021/12/28/[$LATEST]2adbe7854ce34165aabbf5c4fe23be05",
+            "timestamp": 1640687412964,
+            "message": "2021-12-28T10:30:12.963Z\t67ad6bc5-5bf6-46f9-85ae-f53378a23d6c\tINFO\t{\"order_id\":\"4336533831830\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4336533831830\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640687406474.8025\"}\n",
+            "ingestionTime": 1640687420417,
+            "eventId": "36588551946946552658200537411212199374022447142734594050"
+        },
+        {
+            "logStreamName": "2021/12/28/[$LATEST]2adbe7854ce34165aabbf5c4fe23be05",
+            "timestamp": 1640687434583,
+            "message": "2021-12-28T10:30:34.582Z\t67ad6bc5-5bf6-46f9-85ae-f53378a23d6c\tINFO\t{\"order_id\":\"4354307063958\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4354307063958\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"Refund amount 155,00€ is greater than net payment received 75,00€\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640687406474.8025\"}\n",
+            "ingestionTime": 1640687442025,
+            "eventId": "36588552429066363105234079134195530218127498554652164098"
+        },
+        {
+            "logStreamName": "2021/12/28/[$LATEST]1bf7eba52b024210b7120ae9cd61b139",
+            "timestamp": 1640688007244,
+            "message": "2021-12-28T10:40:07.243Z\tacb2716d-d0f4-4eee-91ae-9808d31b894d\tINFO\t{\"order_id\":\"4352097878166\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4352097878166\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640688002427.4114\"}\n",
+            "ingestionTime": 1640688011438,
+            "eventId": "36588565199833409240979258677559435967528304792894767111"
+        },
+        {
+            "logStreamName": "2021/12/28/[$LATEST]2adbe7854ce34165aabbf5c4fe23be05",
+            "timestamp": 1640688327719,
+            "message": "2021-12-28T10:45:27.719Z\t3747a761-91d2-40e3-8300-0e259a26760a\tINFO\t{\"order_id\":\"4358823477398\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4358823477398\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640688303288.4114\"}\n",
+            "ingestionTime": 1640688331349,
+            "eventId": "36588572346664726740080710347967230371618101744024748036"
+        },
+        {
+            "logStreamName": "2021/12/28/[$LATEST]e0f69a9c02da4afa9b555f76a2077bf3",
+            "timestamp": 1640691050784,
+            "message": "2021-12-28T11:30:50.784Z\t325d9c4a-7976-4def-9f7e-9216d00bfa15\tINFO\t{\"order_id\":\"4342489186454\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4342489186454\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640691004987.9326\"}\n",
+            "ingestionTime": 1640691058845,
+            "eventId": "36588633073043450776872018551268755413915111362858516481"
+        },
+        {
+            "logStreamName": "2021/12/28/[$LATEST]f201a52cfd9048dc962beebbf045dea0",
+            "timestamp": 1640699716193,
+            "message": "2021-12-28T13:55:16.192Z\tac2f1944-6517-41f7-964c-47c873ac420d\tINFO\t{\"order_id\":\"4355395354774\",\"errorName\":\"Error\",\"errorMessage\":\"[{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4355395354774\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10950415483030\\\",\\\"quantity\\\":1},{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10950415515798\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":0,\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4355395354774\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"stackTrace\":\"Error: [{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4355395354774\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10950415483030\\\",\\\"quantity\\\":1},{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10950415515798\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":0,\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4355395354774\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640699705813.4522\"}\n",
+            "ingestionTime": 1640699723983,
+            "eventId": "36588826318121600830920575298664374822104970010675314690"
+        },
+        {
+            "logStreamName": "2021/12/29/[$LATEST]7d001dc285ae4f29b9c568ba98770fba",
+            "timestamp": 1640777104077,
+            "message": "2021-12-29T11:25:04.077Z\t32a91fc1-4819-4c20-9a50-dca6fce9457e\tINFO\t{\"order_id\":\"4333129171094\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4333129171094\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"Refund amount 120,00€ is greater than net payment received 75,00€\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640777102592.1048\"}\n",
+            "ingestionTime": 1640777111635,
+            "eventId": "36590552125604138275754793736342621883121498265099239429"
+        },
+        {
+            "logStreamName": "2021/12/29/[$LATEST]bef60c2e38ab44c39308527d7b4822c6",
+            "timestamp": 1640780702923,
+            "message": "2021-12-29T12:25:02.923Z\t68749110-066e-4ace-a5b3-ff350bb0b722\tINFO\t{\"order_id\":\"4345324863638\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4345324863638\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"Refund amount 145,00€ is greater than net payment received 50,00€\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640780701856.9013\"}\n",
+            "ingestionTime": 1640780710871,
+            "eventId": "36590632382551793026893768510805725701774421568745046021"
+        },
+        {
+            "logStreamName": "2021/12/29/[$LATEST]27d5a15ad3e9485dbeecffd047a02539",
+            "timestamp": 1640784904194,
+            "message": "2021-12-29T13:35:04.194Z\t781fb417-ae61-40e5-b644-63387a98e67a\tINFO\t{\"order_id\":\"4331923406998\",\"errorName\":\"Error\",\"errorMessage\":\"[{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4331923406998\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10905131712662\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":\\\"0.0\\\",\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4331923406998\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"stackTrace\":\"Error: [{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4331923406998\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10905131712662\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":\\\"0.0\\\",\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4331923406998\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640784903049.1796\"}\n",
+            "ingestionTime": 1640784912097,
+            "eventId": "36590726074025874002843390052684953871848562047517327366"
+        },
+        {
+            "logStreamName": "2021/12/29/[$LATEST]0068e8ee7c8445a594ae22f52fd1210a",
+            "timestamp": 1640786710678,
+            "message": "2021-12-29T14:05:10.678Z\ta66ae43e-96d5-4c0a-ae09-94684fe452b9\tINFO\t{\"order_id\":\"4342706503830\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4342706503830\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640786704859.3810\"}\n",
+            "ingestionTime": 1640786712821,
+            "eventId": "36590766359965263225237607443636892372534156284547432463"
+        },
+        {
+            "logStreamName": "2021/12/29/[$LATEST]bfc38c6e72654fd89f348a8627bf8f50",
+            "timestamp": 1640787306191,
+            "message": "2021-12-29T14:15:06.191Z\t6523e1a3-fd5d-410b-b936-7442c5782fe9\tINFO\t{\"order_id\":\"4278053437590\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4278053437590\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"1\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640787303459.6857\"}\n",
+            "ingestionTime": 1640787312473,
+            "eventId": "36590779640348938637804587053932178774029406002493915145"
+        },
+        {
+            "logStreamName": "2021/12/31/[$LATEST]c3e420ac102742c8adf33e5e80a29527",
+            "timestamp": 1640947203890,
+            "message": "2021-12-31T10:40:03.890Z\ta11c730d-8dd4-47eb-9890-024e39409cf2\tINFO\t{\"order_id\":\"4357637931158\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4357637931158\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1640947203086.7992\"}\n",
+            "ingestionTime": 1640947212100,
+            "eventId": "36594345478192168982626148073397787941920679247126396933"
+        },
+        {
+            "logStreamName": "2022/01/03/[$LATEST]d28daefd93da4dde8934544c980b5499",
+            "timestamp": 1641208207203,
+            "message": "2022-01-03T11:10:07.203Z\t70fd0ba1-40f2-40f0-812b-6f30d0a6ceb0\tINFO\t{\"order_id\":\"4356038459542\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4356038459542\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"Refund amount 260,00€ is greater than net payment received 100,00€\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641208205602.7613\"}\n",
+            "ingestionTime": 1641208210767,
+            "eventId": "36600166046571354317998358891802360925389812467042222086"
+        },
+        {
+            "logStreamName": "2022/01/03/[$LATEST]71013c8b5c15402e81b04ced3e8a719c",
+            "timestamp": 1641213305856,
+            "message": "2022-01-03T12:35:05.856Z\t0980316c-c3dd-4dde-b7cc-240fbc838932\tINFO\t{\"order_id\":\"4368470573206\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4368470573206\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641213304476.4397\"}\n",
+            "ingestionTime": 1641213313517,
+            "eventId": "36600279750332763041755637521162765714433790024139079686"
+        },
+        {
+            "logStreamName": "2022/01/03/[$LATEST]71013c8b5c15402e81b04ced3e8a719c",
+            "timestamp": 1641214227955,
+            "message": "2022-01-03T12:50:27.955Z\t16a9f32c-7518-4ffe-bf49-cd663387f97f\tINFO\t{\"order_id\":\"4354174484630\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4354174484630\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"Refund amount 160,00€ is greater than net payment received 150,00€\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641214202440.8315\"}\n",
+            "ingestionTime": 1641214230341,
+            "eventId": "36600300313827609861644706816479169032009754103587143684"
+        },
+        {
+            "logStreamName": "2022/01/03/[$LATEST]ec53f798050d44019cd733fb03cfcb53",
+            "timestamp": 1641220826405,
+            "message": "2022-01-03T14:40:26.405Z\t0d1bfbf8-e7df-479d-be88-1e5700036656\tINFO\t{\"order_id\":\"4341499658390\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4341499658390\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"Refund amount 144,00€ is greater than net payment received 50,00€\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641220803423.4523\"}\n",
+            "ingestionTime": 1641220832377,
+            "eventId": "36600447464179765106034983064211426872825177256737636355"
+        },
+        {
+            "logStreamName": "2022/01/03/[$LATEST]097163856a60459d9c4d514e5caab3af",
+            "timestamp": 1641221403346,
+            "message": "2022-01-03T14:50:03.346Z\t063a73f1-3395-42db-9be0-044b37afa1b2\tINFO\t{\"order_id\":\"4357424218262\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4357424218262\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641221402315.4261\"}\n",
+            "ingestionTime": 1641221411327,
+            "eventId": "36600460330394000691491229664877699657042874624864878597"
+        },
+        {
+            "logStreamName": "2022/01/03/[$LATEST]097163856a60459d9c4d514e5caab3af",
+            "timestamp": 1641221410021,
+            "message": "2022-01-03T14:50:10.021Z\t063a73f1-3395-42db-9be0-044b37afa1b2\tINFO\t{\"order_id\":\"4361944989846\",\"errorName\":\"Error\",\"errorMessage\":\"[{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4361944989846\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10962456051862\\\",\\\"quantity\\\":1},{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10962456117398\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":0,\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4361944989846\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"stackTrace\":\"Error: [{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4361944989846\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10962456051862\\\",\\\"quantity\\\":1},{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10962456117398\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":0,\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4361944989846\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641221402315.4261\"}\n",
+            "ingestionTime": 1641221411327,
+            "eventId": "36600460479251474891683139134628619126970687677284155401"
+        },
+        {
+            "logStreamName": "2022/01/04/[$LATEST]e880b27d61a64f28b09a17651c5886c9",
+            "timestamp": 1641286203964,
+            "message": "2022-01-04T08:50:03.964Z\t12af134a-37e7-474c-b8c3-10e1cc920a3e\tINFO\t{\"order_id\":\"4340243923094\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4340243923094\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"1\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"2\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641286202938.9888\"}\n",
+            "ingestionTime": 1641286211945,
+            "eventId": "36601905432464726008562804620031324984971630818363047941"
+        },
+        {
+            "logStreamName": "2022/01/04/[$LATEST]e880b27d61a64f28b09a17651c5886c9",
+            "timestamp": 1641286205332,
+            "message": "2022-01-04T08:50:05.332Z\t12af134a-37e7-474c-b8c3-10e1cc920a3e\tINFO\t{\"order_id\":\"4355705667734\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4355705667734\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641286202938.9888\"}\n",
+            "ingestionTime": 1641286211945,
+            "eventId": "36601905462972145440152697077652187581954589358544257031"
+        },
+        {
+            "logStreamName": "2022/01/04/[$LATEST]c96331328f2243e3acf2ba0643a6d7ed",
+            "timestamp": 1641307523675,
+            "message": "2022-01-04T14:45:23.675Z\t09b562e5-96b9-427a-9443-00c34404cf29\tINFO\t{\"order_id\":\"4378748878998\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4378748878998\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"Refund amount 324,00€ is greater than net payment received 300,00€\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641307507226.4069\"}\n",
+            "ingestionTime": 1641307525481,
+            "eventId": "36602380877907443319072857840124982740248267553104789508"
+        },
+        {
+            "logStreamName": "2022/01/05/[$LATEST]0c258438644d48a1b4c85260bf6c2b55",
+            "timestamp": 1641368116604,
+            "message": "2022-01-05T07:35:16.604Z\t94dc9cd9-8d0b-4740-b516-b4af7a916a9c\tINFO\t{\"order_id\":\"4341503918230\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4341503918230\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"Refund amount 40,00€ is greater than net payment received 36,00€\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641368102291.2805\"}\n",
+            "ingestionTime": 1641368120618,
+            "eventId": "36603732145377904976025271925878805941733835886640889861"
+        },
+        {
+            "logStreamName": "2022/01/05/[$LATEST]720968a81bde4aaa89aaac4ec82d67b6",
+            "timestamp": 1641370207791,
+            "message": "2022-01-05T08:10:07.791Z\td7bd9a1e-4f21-47d1-bbfb-14b4c81792d0\tINFO\t{\"order_id\":\"4362213949590\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4362213949590\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"1\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641370206755.4159\"}\n",
+            "ingestionTime": 1641370211915,
+            "eventId": "36603778780406354455683489932756098130973288778047553541"
+        },
+        {
+            "logStreamName": "2022/01/05/[$LATEST]98ad4a5fea1946bab3eb1e57e0f49a6a",
+            "timestamp": 1641370803573,
+            "message": "2022-01-05T08:20:03.573Z\t99522856-9344-45b5-8070-d8b341ae1493\tINFO\t{\"order_id\":\"4341494808726\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4341494808726\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641370802633.10926\"}\n",
+            "ingestionTime": 1641370811647,
+            "eventId": "36603792066788930326655207168220803421038363087750955013"
+        },
+        {
+            "logStreamName": "2022/01/05/[$LATEST]98ad4a5fea1946bab3eb1e57e0f49a6a",
+            "timestamp": 1641372025688,
+            "message": "2022-01-05T08:40:25.688Z\tb5437366-3a20-447b-b28b-556eb18ef619\tINFO\t{\"order_id\":\"4334560706710\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4334560706710\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"Refund amount 149,00€ is greater than net payment received 134,50€\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641372002832.7804\"}\n",
+            "ingestionTime": 1641372033334,
+            "eventId": "36603819320864148628907709263073928356013004785043308546"
+        },
+        {
+            "logStreamName": "2022/01/05/[$LATEST]1001a2026bba4173bc524a9355624ec6",
+            "timestamp": 1641376805093,
+            "message": "2022-01-05T10:00:05.092Z\t70d1ba8b-4e98-48e1-a575-7cf57f3bbfed\tINFO\t{\"order_id\":\"4312652939414\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4312652939414\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"Transaction cannot be refunded\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641376803420.10237\"}\n",
+            "ingestionTime": 1641376812547,
+            "eventId": "36603925905157254212160610812307390093705076264883191814"
+        },
+        {
+            "logStreamName": "2022/01/05/[$LATEST]1001a2026bba4173bc524a9355624ec6",
+            "timestamp": 1641377112544,
+            "message": "2022-01-05T10:05:12.543Z\t1123c821-8041-4120-85a6-f74563e40367\tINFO\t{\"order_id\":\"4365448282262\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4365448282262\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"Refund amount 145,00€ is greater than net payment received 50,00€\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641377105479.2975\"}\n",
+            "ingestionTime": 1641377114495,
+            "eventId": "36603932761543666245599226665638488202799682820896784394"
+        },
+        {
+            "logStreamName": "2022/01/05/[$LATEST]d02ed19f4bed4708b7b5c4bca4f546fb",
+            "timestamp": 1641381922415,
+            "message": "2022-01-05T11:25:22.415Z\ta6698647-5159-453a-9444-7bc35f094c2a\tINFO\t{\"order_id\":\"4348142780566\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4348142780566\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641381902653.9582\"}\n",
+            "ingestionTime": 1641381922465,
+            "eventId": "36604040025251275047286092879664346894583314709863137284"
+        },
+        {
+            "logStreamName": "2022/01/07/[$LATEST]1165097d7c9a4d1bb0e7de0f9a2d7688",
+            "timestamp": 1641543006036,
+            "message": "2022-01-07T08:10:06.035Z\te486f515-867c-492c-85d1-2ef0578f1fc1\tINFO\t{\"order_id\":\"4340547190934\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4340547190934\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641543005105.9401\"}\n",
+            "ingestionTime": 1641543011498,
+            "eventId": "36607632310038852723941312593355817812538661438318313477"
+        },
+        {
+            "logStreamName": "2022/01/07/[$LATEST]1f9fada09fe545d7a49d1f0398f71990",
+            "timestamp": 1641544236826,
+            "message": "2022-01-07T08:30:36.826Z\ta4fbf11d-2b37-4806-8aff-b171983a1450\tINFO\t{\"order_id\":\"4371467763862\",\"errorName\":\"Error\",\"errorMessage\":\"[{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4371467763862\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10980190978198\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":0,\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4371467763862\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"stackTrace\":\"Error: [{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4371467763862\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10980190978198\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":0,\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4371467763862\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641544206192.3026\"}\n",
+            "ingestionTime": 1641544239258,
+            "eventId": "36607659757573035623446970448373460981359095259184168965"
+        },
+        {
+            "logStreamName": "2022/01/07/[$LATEST]620d15dd9233423d81a617f9a21a262e",
+            "timestamp": 1641553514992,
+            "message": "2022-01-07T11:05:14.992Z\tb8e1328a-1e68-4e61-9e22-4c918cba592f\tINFO\t{\"order_id\":\"4373012742294\",\"errorName\":\"Error\",\"errorMessage\":\"[{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4373012742294\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10982929629334\\\",\\\"quantity\\\":1},{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10982929662102\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":0,\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4373012742294\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"stackTrace\":\"Error: [{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4373012742294\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10982929629334\\\",\\\"quantity\\\":1},{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10982929662102\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":0,\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4373012742294\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641553502498.8915\"}\n",
+            "ingestionTime": 1641553522699,
+            "eventId": "36607866667588911293524572281253694006710851046434930690"
+        },
+        {
+            "logStreamName": "2022/01/10/[$LATEST]d24a0fc89ebf4985a8a0f0a6a9101065",
+            "timestamp": 1641801903284,
+            "message": "2022-01-10T08:05:03.284Z\tf29cd1a2-d0bc-495c-b3de-0788f1f43767\tINFO\t{\"order_id\":\"4354317385878\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4354317385878\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"1\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641801902364.6286\"}\n",
+            "ingestionTime": 1641801911375,
+            "eventId": "36613405911599101515916694296056525100160375174682116101"
+        },
+        {
+            "logStreamName": "2022/01/10/[$LATEST]d24a0fc89ebf4985a8a0f0a6a9101065",
+            "timestamp": 1641802203545,
+            "message": "2022-01-10T08:10:03.545Z\ta1a76866-6092-47db-b6a3-7c7b3e54ad8c\tINFO\t{\"order_id\":\"4347353530518\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4347353530518\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641802202681.5091\"}\n",
+            "ingestionTime": 1641802211696,
+            "eventId": "36613412607643155571920129759778585515003540166941474821"
+        },
+        {
+            "logStreamName": "2022/01/10/[$LATEST]d24a0fc89ebf4985a8a0f0a6a9101065",
+            "timestamp": 1641802215269,
+            "message": "2022-01-10T08:10:15.268Z\ta1a76866-6092-47db-b6a3-7c7b3e54ad8c\tINFO\t{\"order_id\":\"4347702771862\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4347702771862\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641802202681.5091\"}\n",
+            "ingestionTime": 1641802222919,
+            "eventId": "36613412869097092279493155484710740285235458585601572866"
+        },
+        {
+            "logStreamName": "2022/01/11/[$LATEST]b4d224ead35948a09de98c9c40cbef4d",
+            "timestamp": 1641908129107,
+            "message": "2022-01-11T13:35:29.106Z\t4cff5e90-b3c7-4075-805e-f33c43eb8f10\tINFO\t{\"order_id\":\"4355298001046\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4355298001046\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641908103211.1014\"}\n",
+            "ingestionTime": 1641908132472,
+            "eventId": "36615774826611328729750735186640571705361469558635102212"
+        },
+        {
+            "logStreamName": "2022/01/11/[$LATEST]6ade77cb1647461da9f71eb09c71eb52",
+            "timestamp": 1641910526710,
+            "message": "2022-01-11T14:15:26.710Z\tecaea0ef-225c-4329-a2bb-eb01fade26ca\tINFO\t{\"order_id\":\"4341806923926\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4341806923926\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"1\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641910502846.2379\"}\n",
+            "ingestionTime": 1641910534248,
+            "eventId": "36615828294944918962368374105672401122203052589305102338"
+        },
+        {
+            "logStreamName": "2022/01/11/[$LATEST]3bd67f9a04854202ab371233dd98b54f",
+            "timestamp": 1641911114347,
+            "message": "2022-01-11T14:25:14.347Z\t5b910ebb-6f5a-47da-9dc3-25decf539351\tINFO\t{\"order_id\":\"4364184223894\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4364184223894\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641911103328.10414\"}\n",
+            "ingestionTime": 1641911121884,
+            "eventId": "36615841399687925191308165838705153530407527930675003394"
+        },
+        {
+            "logStreamName": "2022/01/11/[$LATEST]6ade77cb1647461da9f71eb09c71eb52",
+            "timestamp": 1641911722690,
+            "message": "2022-01-11T14:35:22.686Z\tf9667b65-cd1f-426a-9683-9e9d483a08c7\tINFO\t{\"order_id\":\"4375139614870\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4375139614870\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"1\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641911705237.3637\"}\n",
+            "ingestionTime": 1641911724258,
+            "eventId": "36615854966190161501023040358194204154241867044164730885"
+        },
+        {
+            "logStreamName": "2022/01/12/[$LATEST]d76e33217af34feeb5e769a59ffb38ee",
+            "timestamp": 1641996032985,
+            "message": "2022-01-12T14:00:32.984Z\t65fd110e-48c4-4acc-8333-727c9096279e\tINFO\t{\"order_id\":\"4378557022358\",\"errorName\":\"Error\",\"errorMessage\":\"[{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4378557022358\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10992909648022\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":\\\"0.0\\\",\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4378557022358\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"stackTrace\":\"Error: [{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4378557022358\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10992909648022\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":\\\"0.0\\\",\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4378557022358\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641996003228.4103\"}\n",
+            "ingestionTime": 1641996035395,
+            "eventId": "36617735148596569451426738987265323276906298199534075908"
+        },
+        {
+            "logStreamName": "2022/01/12/[$LATEST]780d3486785b4fb9bdad6bd61e9842e4",
+            "timestamp": 1641996305135,
+            "message": "2022-01-12T14:05:05.135Z\t3251ab3f-6ef1-4661-8f56-1f87a961ac54\tINFO\t{\"order_id\":\"4342717743254\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4342717743254\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641996304299.8610\"}\n",
+            "ingestionTime": 1641996313309,
+            "eventId": "36617741217744375231535827292188442322093000919805657093"
+        },
+        {
+            "logStreamName": "2022/01/12/[$LATEST]780d3486785b4fb9bdad6bd61e9842e4",
+            "timestamp": 1641996322872,
+            "message": "2022-01-12T14:05:22.872Z\t3251ab3f-6ef1-4661-8f56-1f87a961ac54\tINFO\t{\"order_id\":\"4342396485782\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4342396485782\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641996304299.8610\"}\n",
+            "ingestionTime": 1641996324707,
+            "eventId": "36617741613292692817873489967386578923859765757490823172"
+        },
+        {
+            "logStreamName": "2022/01/12/[$LATEST]780d3486785b4fb9bdad6bd61e9842e4",
+            "timestamp": 1641996909068,
+            "message": "2022-01-12T14:15:09.067Z\t408e5bcc-92f5-4b76-bf2d-6e32225aca55\tINFO\t{\"order_id\":\"4371217744022\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4371217744022\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641996902895.10209\"}\n",
+            "ingestionTime": 1641996911908,
+            "eventId": "36617754685900325215730653752940967812906611582691573767"
+        },
+        {
+            "logStreamName": "2022/01/12/[$LATEST]780d3486785b4fb9bdad6bd61e9842e4",
+            "timestamp": 1641996910762,
+            "message": "2022-01-12T14:15:10.762Z\t408e5bcc-92f5-4b76-bf2d-6e32225aca55\tINFO\t{\"order_id\":\"4361835937942\",\"errorName\":\"Error\",\"errorMessage\":\"[{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4361835937942\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10962253021334\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":\\\"0.0\\\",\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4361835937942\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"stackTrace\":\"Error: [{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4361835937942\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10962253021334\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":\\\"0.0\\\",\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4361835937942\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641996902895.10209\"}\n",
+            "ingestionTime": 1641996911908,
+            "eventId": "36617754723677787582041529354702474566772935973822398474"
+        },
+        {
+            "logStreamName": "2022/01/12/[$LATEST]780d3486785b4fb9bdad6bd61e9842e4",
+            "timestamp": 1641996922324,
+            "message": "2022-01-12T14:15:22.324Z\t408e5bcc-92f5-4b76-bf2d-6e32225aca55\tINFO\t{\"order_id\":\"4374682730646\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4374682730646\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641996902895.10209\"}\n",
+            "ingestionTime": 1641996925511,
+            "eventId": "36617754981519003567452594133583727949910710771680673796"
+        },
+        {
+            "logStreamName": "2022/01/12/[$LATEST]780d3486785b4fb9bdad6bd61e9842e4",
+            "timestamp": 1641997503634,
+            "message": "2022-01-12T14:25:03.634Z\t95a8665f-59d9-4731-97bb-0aea7a7de2c5\tINFO\t{\"order_id\":\"4368305651862\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4368305651862\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641997502723.7198\"}\n",
+            "ingestionTime": 1641997511740,
+            "eventId": "36617767945165194925289133248419550260310415225169248261"
+        },
+        {
+            "logStreamName": "2022/01/12/[$LATEST]780d3486785b4fb9bdad6bd61e9842e4",
+            "timestamp": 1641997516071,
+            "message": "2022-01-12T14:25:16.071Z\t95a8665f-59d9-4731-97bb-0aea7a7de2c5\tINFO\t{\"order_id\":\"4353410531478\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4353410531478\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"Refund amount 145,00€ is greater than net payment received 125,00€\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641997502723.7198\"}\n",
+            "ingestionTime": 1641997523519,
+            "eventId": "36617768222519562959414493273939338192645185736131674114"
+        },
+        {
+            "logStreamName": "2022/01/12/[$LATEST]780d3486785b4fb9bdad6bd61e9842e4",
+            "timestamp": 1641998439499,
+            "message": "2022-01-12T14:40:39.499Z\t595c82ab-df7a-4fff-b627-3712868b1c2b\tINFO\t{\"order_id\":\"4352335970454\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4352335970454\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641998403014.4288\"}\n",
+            "ingestionTime": 1641998444829,
+            "eventId": "36617788815652100148150760729779709076325610476051038212"
+        },
+        {
+            "logStreamName": "2022/01/12/[$LATEST]79f270d090bf4adcb2df949b5b9366bf",
+            "timestamp": 1641999321781,
+            "message": "2022-01-12T14:55:21.781Z\t526e96fb-879b-4c85-b1c0-63ecce1a5b30\tINFO\t{\"order_id\":\"4368789209238\",\"errorName\":\"Error\",\"errorMessage\":\"[{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4368789209238\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10974886232214\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":0,\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4368789209238\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"stackTrace\":\"Error: [{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4368789209238\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10974886232214\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":0,\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4368789209238\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1641999305360.2135\"}\n",
+            "ingestionTime": 1641999324626,
+            "eventId": "36617808491198175398146008353805858547136028705454620676"
+        },
+        {
+            "logStreamName": "2022/01/13/[$LATEST]71746a66be22492787bc7795f1b5d409",
+            "timestamp": 1642057810207,
+            "message": "2022-01-13T07:10:10.206Z\t7a31741f-0534-47db-8e50-67ac5a62c384\tINFO\t{\"order_id\":\"4359052492950\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4359052492950\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642057803247.9482\"}\n",
+            "ingestionTime": 1642057812251,
+            "eventId": "36619112826683464511806426660390010999859580806226509832"
+        },
+        {
+            "logStreamName": "2022/01/13/[$LATEST]08e98cbfd7234321b0f59de78030c666",
+            "timestamp": 1642058116071,
+            "message": "2022-01-13T07:15:16.071Z\t4a63643a-f38f-4ae9-9356-c016a263384b\tINFO\t{\"order_id\":\"4368332161174\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4368332161174\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"1\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642058105101.6585\"}\n",
+            "ingestionTime": 1642058118124,
+            "eventId": "36619119647678593915176943592848907899807963387980152838"
+        },
+        {
+            "logStreamName": "2022/01/13/[$LATEST]71746a66be22492787bc7795f1b5d409",
+            "timestamp": 1642058405167,
+            "message": "2022-01-13T07:20:05.167Z\t55b15ea3-c7a1-4b67-9d4d-5d52ce92e737\tINFO\t{\"order_id\":\"4345926484118\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4345926484118\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\"],\"message\":\"Refund line items cannot refund more than refundable quantity\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642058404402.8874\"}\n",
+            "ingestionTime": 1642058413415,
+            "eventId": "36619126094734827829585971675244076222109261620536803333"
+        },
+        {
+            "logStreamName": "2022/01/13/[$LATEST]71746a66be22492787bc7795f1b5d409",
+            "timestamp": 1642058406813,
+            "message": "2022-01-13T07:20:06.813Z\t55b15ea3-c7a1-4b67-9d4d-5d52ce92e737\tINFO\t{\"order_id\":\"4382384062614\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4382384062614\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642058404402.8874\"}\n",
+            "ingestionTime": 1642058413415,
+            "eventId": "36619126131441854426367377366211868498888464659380568072"
+        },
+        {
+            "logStreamName": "2022/01/13/[$LATEST]9f159b374f5643ad876874c5da727a7e",
+            "timestamp": 1642071924678,
+            "message": "2022-01-13T11:05:24.678Z\tca149a4a-14ef-4682-8bd0-fadbb2af9343\tINFO\t{\"order_id\":\"4360030158998\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4360030158998\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642071904027.1178\"}\n",
+            "ingestionTime": 1642071932397,
+            "eventId": "36619427589904847561529386865390653069748521678386167810"
+        },
+        {
+            "logStreamName": "2022/01/13/[$LATEST]2768121bff514c7284206c559783a4e4",
+            "timestamp": 1642072508650,
+            "message": "2022-01-13T11:15:08.650Z\t33a2a23f-c8e7-44bb-a0e5-295cfaa60346\tINFO\t{\"order_id\":\"4381679157398\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4381679157398\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"Refund amount 110,00€ is greater than net payment received 25,00€\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642072503086.3645\"}\n",
+            "ingestionTime": 1642072512096,
+            "eventId": "36619440612915622637854444775100081850363929132429148167"
+        },
+        {
+            "logStreamName": "2022/01/13/[$LATEST]2768121bff514c7284206c559783a4e4",
+            "timestamp": 1642073122607,
+            "message": "2022-01-13T11:25:22.607Z\t33e89a25-c32a-4bef-83b9-7e0837c89b6d\tINFO\t{\"order_id\":\"4379077017750\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4379077017750\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642073102804.6066\"}\n",
+            "ingestionTime": 1642073130295,
+            "eventId": "36619454304614242492120237630301370653785985102450130946"
+        },
+        {
+            "logStreamName": "2022/01/13/[$LATEST]2768121bff514c7284206c559783a4e4",
+            "timestamp": 1642073123901,
+            "message": "2022-01-13T11:25:23.901Z\t33e89a25-c32a-4bef-83b9-7e0837c89b6d\tINFO\t{\"order_id\":\"4303974891670\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4303974891670\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642073102804.6066\"}\n",
+            "ingestionTime": 1642073130295,
+            "eventId": "36619454333471406779018863975448590098592964891188789252"
+        },
+        {
+            "logStreamName": "2022/01/13/[$LATEST]de2c3672cbfe480f8138c4b97e35238c",
+            "timestamp": 1642077605265,
+            "message": "2022-01-13T12:40:05.264Z\t38546c72-238d-4cf0-9331-15a2c49c20c0\tINFO\t{\"order_id\":\"4352636190870\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4352636190870\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642077603443.3894\"}\n",
+            "ingestionTime": 1642077612486,
+            "eventId": "36619554271228112647006313439157654698623796152747622407"
+        },
+        {
+            "logStreamName": "2022/01/13/[$LATEST]05db32d3d1434f31a51188cddd6f4c9a",
+            "timestamp": 1642077933059,
+            "message": "2022-01-13T12:45:33.059Z\t30fdc90c-7443-4827-b15c-7e177b7f821d\tINFO\t{\"order_id\":\"4375387504790\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4375387504790\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"1\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"2\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"3\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"4\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642077902728.8698\"}\n",
+            "ingestionTime": 1642077940691,
+            "eventId": "36619561581278584254153395892492340609296811735609311234"
+        },
+        {
+            "logStreamName": "2022/01/13/[$LATEST]7d27c2ede6e247e58f866ed2a7694788",
+            "timestamp": 1642082103596,
+            "message": "2022-01-13T13:55:03.596Z\tb4e9ab09-ee7c-44cf-bbc0-46080863a148\tINFO\t{\"order_id\":\"4338189959318\",\"errorName\":\"Error\",\"errorMessage\":\"[{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4338189959318\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10917658460310\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":0,\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4338189959318\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"stackTrace\":\"Error: [{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4338189959318\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10917658460310\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":0,\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4338189959318\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642082102729.5341\"}\n",
+            "ingestionTime": 1642082111743,
+            "eventId": "36619654587361562298462845765934897419274820767950569477"
+        },
+        {
+            "logStreamName": "2022/01/13/[$LATEST]f04b30676dc44615900c5372b833b8af",
+            "timestamp": 1642083303530,
+            "message": "2022-01-13T14:15:03.529Z\t031bc55b-17fd-4111-83a8-2e8cbfb984fd\tINFO\t{\"order_id\":\"4368426107030\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4368426107030\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642083302151.3235\"}\n",
+            "ingestionTime": 1642083311166,
+            "eventId": "36619681346783951352107595931468843390501405340226813958"
+        },
+        {
+            "logStreamName": "2022/01/13/[$LATEST]6877674cb17c47b59b6f670688633267",
+            "timestamp": 1642084503474,
+            "message": "2022-01-13T14:35:03.474Z\tf5de2b5a-dd07-46f7-9358-fac892429398\tINFO\t{\"order_id\":\"4360028520598\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4360028520598\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642084502566.8591\"}\n",
+            "ingestionTime": 1642084511582,
+            "eventId": "36619708106429347857737652329618699299990289664519700485"
+        },
+        {
+            "logStreamName": "2022/01/13/[$LATEST]6877674cb17c47b59b6f670688633267",
+            "timestamp": 1642084810492,
+            "message": "2022-01-13T14:40:10.492Z\t7bb461cd-cf2f-4358-a08b-8dce163c1dea\tINFO\t{\"order_id\":\"4343999856790\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4343999856790\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642084803727.5063\"}\n",
+            "ingestionTime": 1642084812742,
+            "eventId": "36619714953159537220212508361711883879511724272911122441"
+        },
+        {
+            "logStreamName": "2022/01/14/[$LATEST]ea972086e8074e9da8317b6213c73349",
+            "timestamp": 1642153202912,
+            "message": "2022-01-14T09:40:02.912Z\t4b279dc8-214e-48ae-a825-56ec5d1d9e75\tINFO\t{\"order_id\":\"4371762708630\",\"errorName\":\"Error\",\"errorMessage\":\"[{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4371762708630\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10980708188310\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":0,\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4371762708630\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"stackTrace\":\"Error: [{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4371762708630\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10980708188310\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":0,\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4371762708630\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642153202120.7549\"}\n",
+            "ingestionTime": 1642153211135,
+            "eventId": "36621240155091468109973348680584240672431178386190630917"
+        },
+        {
+            "logStreamName": "2022/01/14/[$LATEST]ea972086e8074e9da8317b6213c73349",
+            "timestamp": 1642153511423,
+            "message": "2022-01-14T09:45:11.423Z\tb999af15-40fb-4b11-97c1-94204b2e6d65\tINFO\t{\"order_id\":\"4313556910230\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4313556910230\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"1\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642153510470.1927\"}\n",
+            "ingestionTime": 1642153519480,
+            "eventId": "36621247035116670053854425071676845151062925422554644485"
+        },
+        {
+            "logStreamName": "2022/01/14/[$LATEST]ea972086e8074e9da8317b6213c73349",
+            "timestamp": 1642153513073,
+            "message": "2022-01-14T09:45:13.073Z\tb999af15-40fb-4b11-97c1-94204b2e6d65\tINFO\t{\"order_id\":\"4363356766358\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4363356766358\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642153510470.1927\"}\n",
+            "ingestionTime": 1642153519480,
+            "eventId": "36621247071912899631429953255210780300932721907422330888"
+        },
+        {
+            "logStreamName": "2022/01/14/[$LATEST]7ed9ffde04e7403b90a936941fd9b841",
+            "timestamp": 1642153803453,
+            "message": "2022-01-14T09:50:03.453Z\tbc3e912b-189a-4bed-a571-ed83e9d4faba\tINFO\t{\"order_id\":\"4312677646486\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4312677646486\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642153802606.3979\"}\n",
+            "ingestionTime": 1642153811597,
+            "eventId": "36621253547603290380752301447500156320459196066588524549"
+        },
+        {
+            "logStreamName": "2022/01/14/[$LATEST]ea972086e8074e9da8317b6213c73349",
+            "timestamp": 1642154103748,
+            "message": "2022-01-14T09:55:03.748Z\tf14cbf43-cc97-4626-be4e-051218a53c16\tINFO\t{\"order_id\":\"4312599494806\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4312599494806\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642154103051.9724\"}\n",
+            "ingestionTime": 1642154112068,
+            "eventId": "36621260244405569773505778098216222169694535206786564101"
+        },
+        {
+            "logStreamName": "2022/01/14/[$LATEST]ea972086e8074e9da8317b6213c73349",
+            "timestamp": 1642154105048,
+            "message": "2022-01-14T09:55:05.048Z\tf14cbf43-cc97-4626-be4e-051218a53c16\tINFO\t{\"order_id\":\"4342252470422\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4342252470422\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642154103051.9724\"}\n",
+            "ingestionTime": 1642154112068,
+            "eventId": "36621260273396538531595588182212655924137405164561104903"
+        },
+        {
+            "logStreamName": "2022/01/14/[$LATEST]ea972086e8074e9da8317b6213c73349",
+            "timestamp": 1642154106288,
+            "message": "2022-01-14T09:55:06.287Z\tf14cbf43-cc97-4626-be4e-051218a53c16\tINFO\t{\"order_id\":\"4358424297622\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4358424297622\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"Refund amount 320,00€ is greater than net payment received 160,00€\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642154103051.9724\"}\n",
+            "ingestionTime": 1642154112068,
+            "eventId": "36621260301049462577773560877716946582221373431976820745"
+        },
+        {
+            "logStreamName": "2022/01/14/[$LATEST]ea972086e8074e9da8317b6213c73349",
+            "timestamp": 1642154107559,
+            "message": "2022-01-14T09:55:07.559Z\tf14cbf43-cc97-4626-be4e-051218a53c16\tINFO\t{\"order_id\":\"4358472171670\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4358472171670\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642154103051.9724\"}\n",
+            "ingestionTime": 1642154112068,
+            "eventId": "36621260329393709725105982890608844506757440906077929483"
+        },
+        {
+            "logStreamName": "2022/01/14/[$LATEST]672d1d79361745f7b84226adbef4530a",
+            "timestamp": 1642154406191,
+            "message": "2022-01-14T10:00:06.191Z\te8ffb252-dab6-4867-9bd2-53050198b325\tINFO\t{\"order_id\":\"4337164976278\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4337164976278\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642154404370.5528\"}\n",
+            "ingestionTime": 1642154413382,
+            "eventId": "36621266989109849852703033257969423805569966876686680070"
+        },
+        {
+            "logStreamName": "2022/01/14/[$LATEST]672d1d79361745f7b84226adbef4530a",
+            "timestamp": 1642154407457,
+            "message": "2022-01-14T10:00:07.456Z\te8ffb252-dab6-4867-9bd2-53050198b325\tINFO\t{\"order_id\":\"4367221719190\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4367221719190\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642154404370.5528\"}\n",
+            "ingestionTime": 1642154413382,
+            "eventId": "36621267017342593274042802155153643138742792543257886728"
+        },
+        {
+            "logStreamName": "2022/01/14/[$LATEST]7ed9ffde04e7403b90a936941fd9b841",
+            "timestamp": 1642154704465,
+            "message": "2022-01-14T10:05:04.465Z\t29d8384b-a236-4e23-99c0-911f1173add1\tINFO\t{\"order_id\":\"4337135943830\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4337135943830\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642154703538.8013\"}\n",
+            "ingestionTime": 1642154712550,
+            "eventId": "36621273640842323199226120538066500338610393006576828421"
+        },
+        {
+            "logStreamName": "2022/01/14/[$LATEST]7ed9ffde04e7403b90a936941fd9b841",
+            "timestamp": 1642154705727,
+            "message": "2022-01-14T10:05:05.727Z\t29d8384b-a236-4e23-99c0-911f1173add1\tINFO\t{\"order_id\":\"4340060749974\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4340060749974\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642154703538.8013\"}\n",
+            "ingestionTime": 1642154712550,
+            "eventId": "36621273668985863639771766942684576798692625227124113415"
+        },
+        {
+            "logStreamName": "2022/01/14/[$LATEST]7ed9ffde04e7403b90a936941fd9b841",
+            "timestamp": 1642154707378,
+            "message": "2022-01-14T10:05:07.378Z\t29d8384b-a236-4e23-99c0-911f1173add1\tINFO\t{\"order_id\":\"4347587494038\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4347587494038\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642154703538.8013\"}\n",
+            "ingestionTime": 1642154712550,
+            "eventId": "36621273705804393962545825749360047666835070073497780233"
+        },
+        {
+            "logStreamName": "2022/01/14/[$LATEST]7ed9ffde04e7403b90a936941fd9b841",
+            "timestamp": 1642154709023,
+            "message": "2022-01-14T10:05:09.022Z\t29d8384b-a236-4e23-99c0-911f1173add1\tINFO\t{\"order_id\":\"4346992689302\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4346992689302\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642154703538.8013\"}\n",
+            "ingestionTime": 1642154712550,
+            "eventId": "36621273742489119814128700817186304225341624750835564555"
+        },
+        {
+            "logStreamName": "2022/01/14/[$LATEST]7ed9ffde04e7403b90a936941fd9b841",
+            "timestamp": 1642154710244,
+            "message": "2022-01-14T10:05:10.244Z\t29d8384b-a236-4e23-99c0-911f1173add1\tINFO\t{\"order_id\":\"4359224426646\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4359224426646\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642154703538.8013\"}\n",
+            "ingestionTime": 1642154712550,
+            "eventId": "36621273769718329701534591673001416236245274149637652493"
+        },
+        {
+            "logStreamName": "2022/01/14/[$LATEST]672d1d79361745f7b84226adbef4530a",
+            "timestamp": 1642155306441,
+            "message": "2022-01-14T10:15:06.441Z\t2bc5a7dc-570f-4493-992d-1e5ca59c3cfd\tINFO\t{\"order_id\":\"4378222592150\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4378222592150\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642155304989.5849\"}\n",
+            "ingestionTime": 1642155314007,
+            "eventId": "36621287065355714829896517514288902591017093969972166663"
+        },
+        {
+            "logStreamName": "2022/01/14/[$LATEST]672d1d79361745f7b84226adbef4530a",
+            "timestamp": 1642155307833,
+            "message": "2022-01-14T10:15:07.833Z\t2bc5a7dc-570f-4493-992d-1e5ca59c3cfd\tINFO\t{\"order_id\":\"4363490885782\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4363490885782\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642155304989.5849\"}\n",
+            "ingestionTime": 1642155314007,
+            "eventId": "36621287096398352146251144927306622426543613186296905737"
+        },
+        {
+            "logStreamName": "2022/01/14/[$LATEST]672d1d79361745f7b84226adbef4530a",
+            "timestamp": 1642155309114,
+            "message": "2022-01-14T10:15:09.113Z\t2bc5a7dc-570f-4493-992d-1e5ca59c3cfd\tINFO\t{\"order_id\":\"4340430864534\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4340430864534\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642155304989.5849\"}\n",
+            "ingestionTime": 1642155314007,
+            "eventId": "36621287124965606745568873171613877533806164275457818635"
+        },
+        {
+            "logStreamName": "2022/01/14/[$LATEST]0e3691b21bd244d3ac05d17fb2fdcdea",
+            "timestamp": 1642155604173,
+            "message": "2022-01-14T10:20:04.173Z\t82c298df-9896-4c1f-8b90-2935ecdc060a\tINFO\t{\"order_id\":\"4347212267670\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4347212267670\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642155603295.1764\"}\n",
+            "ingestionTime": 1642155612302,
+            "eventId": "36621293705001184278816007050617708157765145490144296965"
+        },
+        {
+            "logStreamName": "2022/01/14/[$LATEST]0e3691b21bd244d3ac05d17fb2fdcdea",
+            "timestamp": 1642155605433,
+            "message": "2022-01-14T10:20:05.433Z\t82c298df-9896-4c1f-8b90-2935ecdc060a\tINFO\t{\"order_id\":\"4364842008726\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4364842008726\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642155603295.1764\"}\n",
+            "ingestionTime": 1642155612302,
+            "eventId": "36621293733100123228964592208952713181302080987679621127"
+        },
+        {
+            "logStreamName": "2022/01/14/[$LATEST]0e3691b21bd244d3ac05d17fb2fdcdea",
+            "timestamp": 1642155606777,
+            "message": "2022-01-14T10:20:06.777Z\t82c298df-9896-4c1f-8b90-2935ecdc060a\tINFO\t{\"order_id\":\"4375172513942\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4375172513942\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"1\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642155603295.1764\"}\n",
+            "ingestionTime": 1642155612302,
+            "eventId": "36621293763072324775789749711176718539741478851717300233"
+        },
+        {
+            "logStreamName": "2022/01/14/[$LATEST]0caa6d8f7dd94f3996920ce55d5e7c86",
+            "timestamp": 1642155904017,
+            "message": "2022-01-14T10:25:04.017Z\tc6e75a23-f6db-414a-8967-d3cbec476e2f\tINFO\t{\"order_id\":\"4330616029334\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4330616029334\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642155902795.1174\"}\n",
+            "ingestionTime": 1642155911808,
+            "eventId": "36621300391745827587032172663334188608312070122291200006"
+        },
+        {
+            "logStreamName": "2022/01/14/[$LATEST]0caa6d8f7dd94f3996920ce55d5e7c86",
+            "timestamp": 1642156205102,
+            "message": "2022-01-14T10:30:05.102Z\t1580228c-f089-4e8a-b9b3-8c1ad4686147\tINFO\t{\"order_id\":\"4373312143510\",\"errorName\":\"Error\",\"errorMessage\":\"[{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4373312143510\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10983440711830\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":0,\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4373312143510\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"stackTrace\":\"Error: [{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4373312143510\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10983440711830\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":0,\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4373312143510\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642156203710.4061\"}\n",
+            "ingestionTime": 1642156212722,
+            "eventId": "36621307106165695686624841596398550334104730774651535367"
+        },
+        {
+            "logStreamName": "2022/01/14/[$LATEST]1b7bed0f3e16469da03e834459eec03e",
+            "timestamp": 1642163432851,
+            "message": "2022-01-14T12:30:32.851Z\t71e0984a-97cb-4fb6-beaa-61f5f963505b\tINFO\t{\"order_id\":\"4387507568790\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4387507568790\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642163405929.7340\"}\n",
+            "ingestionTime": 1642163435387,
+            "eventId": "36621468290354503621137730939710834345804386410926047236"
+        },
+        {
+            "logStreamName": "2022/01/14/[$LATEST]e67dfb876bbc43778c4162d19b4c33b1",
+            "timestamp": 1642164604774,
+            "message": "2022-01-14T12:50:04.771Z\t8e02f65b-5288-426e-81d0-7bdbebf0b59b\tINFO\t{\"order_id\":\"4356082565270\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4356082565270\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"Refund amount 135,00€ is greater than net payment received 75,00€\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642164603284.3091\"}\n",
+            "ingestionTime": 1642164612296,
+            "eventId": "36621494425110718918741196260470004147374030686472634374"
+        },
+        {
+            "logStreamName": "2022/01/17/[$LATEST]f16fb81555fb4aeda54018636d70447b",
+            "timestamp": 1642423518691,
+            "message": "2022-01-17T12:45:18.691Z\t5b8bf9a0-3e4a-48ea-b4a9-3dc1b0269aa7\tINFO\t{\"order_id\":\"4383197757590\",\"errorName\":\"Error\",\"errorMessage\":\"[{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4383197757590\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/11002811220118\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":\\\"0.0\\\",\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4383197757590\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"stackTrace\":\"Error: [{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4383197757590\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/11002811220118\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":\\\"0.0\\\",\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4383197757590\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642423503334.10576\"}\n",
+            "ingestionTime": 1642423522157,
+            "eventId": "36627268398402089425023535121499578883768303174571720708"
+        },
+        {
+            "logStreamName": "2022/01/17/[$LATEST]fbf08ef3aa2c48c984c472026348fe88",
+            "timestamp": 1642424118016,
+            "message": "2022-01-17T12:55:18.016Z\t6de812d6-6eed-4a43-acdb-19afd4c29e4d\tINFO\t{\"order_id\":\"4375339106454\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4375339106454\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642424102834.6792\"}\n",
+            "ingestionTime": 1642424121592,
+            "eventId": "36627281763796205534389250147066193650759351633652416516"
+        },
+        {
+            "logStreamName": "2022/01/17/[$LATEST]fbf08ef3aa2c48c984c472026348fe88",
+            "timestamp": 1642424144681,
+            "message": "2022-01-17T12:55:44.681Z\t6de812d6-6eed-4a43-acdb-19afd4c29e4d\tINFO\t{\"order_id\":\"4343553360022\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4343553360022\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642424102834.6792\"}\n",
+            "ingestionTime": 1642424151987,
+            "eventId": "36627282358445576253208316252861435426805018053260279810"
+        },
+        {
+            "logStreamName": "2022/01/17/[$LATEST]7f98baa63aaf45eb94930b5ebc0f23d8",
+            "timestamp": 1642424419709,
+            "message": "2022-01-17T13:00:19.709Z\t28da06a8-5f0f-43c2-9416-59841e843615\tINFO\t{\"order_id\":\"4381575151766\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4381575151766\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642424406710.4193\"}\n",
+            "ingestionTime": 1642424425998,
+            "eventId": "36627288491774926714688537954406200205166294137644777475"
+        },
+        {
+            "logStreamName": "2022/01/17/[$LATEST]7f98baa63aaf45eb94930b5ebc0f23d8",
+            "timestamp": 1642424426972,
+            "message": "2022-01-17T13:00:26.972Z\t28da06a8-5f0f-43c2-9416-59841e843615\tINFO\t{\"order_id\":\"4350676304022\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4350676304022\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642424406710.4193\"}\n",
+            "ingestionTime": 1642424435063,
+            "eventId": "36627288653745239091616453842338825494756959230390370305"
+        },
+        {
+            "logStreamName": "2022/01/17/[$LATEST]7f98baa63aaf45eb94930b5ebc0f23d8",
+            "timestamp": 1642424433822,
+            "message": "2022-01-17T13:00:33.822Z\t28da06a8-5f0f-43c2-9416-59841e843615\tINFO\t{\"order_id\":\"4319169872022\",\"errorName\":\"Error\",\"errorMessage\":\"[{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4319169872022\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10877607739542\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":0,\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4319169872022\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"stackTrace\":\"Error: [{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4319169872022\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10877607739542\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":0,\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4319169872022\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642424406710.4193\"}\n",
+            "ingestionTime": 1642424435063,
+            "eventId": "36627288806505343701551222361858495662398235546356219909"
+        },
+        {
+            "logStreamName": "2022/01/17/[$LATEST]fbf08ef3aa2c48c984c472026348fe88",
+            "timestamp": 1642425004736,
+            "message": "2022-01-17T13:10:04.736Z\tdbc7dfb9-11f4-4ab9-bb3b-4e363a9c150b\tINFO\t{\"order_id\":\"4382268457110\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4382268457110\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642425003366.10820\"}\n",
+            "ingestionTime": 1642425012380,
+            "eventId": "36627301538312987975463403286515225574825805044311261190"
+        },
+        {
+            "logStreamName": "2022/01/17/[$LATEST]4ae35ceb8dbd4664a40976de9f2d018d",
+            "timestamp": 1642425304303,
+            "message": "2022-01-17T13:15:04.303Z\t261419a5-0ae2-4b54-af4d-82bf877e8031\tINFO\t{\"order_id\":\"4371398721686\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4371398721686\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642425303302.9060\"}\n",
+            "ingestionTime": 1642425312296,
+            "eventId": "36627308218880324863686586289521870247437636704064831493"
+        },
+        {
+            "logStreamName": "2022/01/17/[$LATEST]7f98baa63aaf45eb94930b5ebc0f23d8",
+            "timestamp": 1642425617460,
+            "message": "2022-01-17T13:20:17.459Z\t4812c6b1-d097-4ab2-a25c-a95ce95776a0\tINFO\t{\"order_id\":\"4368560455830\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4368560455830\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"An error occurred while processing your request\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642425603887.8683\"}\n",
+            "ingestionTime": 1642425623753,
+            "eventId": "36627315202514788999940937799951349405229795946816339970"
+        },
+        {
+            "logStreamName": "2022/01/17/[$LATEST]bfa0760824d647d59e5cabc9259e0942",
+            "timestamp": 1642427715877,
+            "message": "2022-01-17T13:55:15.877Z\t10f31efb-23c7-4960-8a00-970eccaeb317\tINFO\t{\"order_id\":\"4372916863126\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4372916863126\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642427703093.10481\"}\n",
+            "ingestionTime": 1642427723478,
+            "eventId": "36627361998777626264975561130319969126350865065530949634"
+        },
+        {
+            "logStreamName": "2022/01/17/[$LATEST]bfa0760824d647d59e5cabc9259e0942",
+            "timestamp": 1642428018707,
+            "message": "2022-01-17T14:00:18.707Z\tc6720dbb-13ac-4ac7-b22f-02152ccb94e7\tINFO\t{\"order_id\":\"4383730925718\",\"errorName\":\"Error\",\"errorMessage\":\"[{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4383730925718\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/11003805040790\\\",\\\"quantity\\\":1},{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/11003805008022\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":0,\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4383730925718\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"stackTrace\":\"Error: [{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4383730925718\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/11003805040790\\\",\\\"quantity\\\":1},{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/11003805008022\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":0,\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4383730925718\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642428003965.3190\"}\n",
+            "ingestionTime": 1642428026106,
+            "eventId": "36627368752112294736004167447436681822205782738789269506"
+        },
+        {
+            "logStreamName": "2022/01/17/[$LATEST]8919cbe7b1fc433280a56e9c341abb71",
+            "timestamp": 1642428615802,
+            "message": "2022-01-17T14:10:15.801Z\t0c206687-648e-49cc-b878-9ea76a88da3f\tINFO\t{\"order_id\":\"4392241135766\",\"errorName\":\"Error\",\"errorMessage\":\"[{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4392241135766\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/11020033196182\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":\\\"0.0\\\",\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4392241135766\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"stackTrace\":\"Error: [{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4392241135766\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/11020033196182\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":\\\"0.0\\\",\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4392241135766\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642428603186.7918\"}\n",
+            "ingestionTime": 1642428623034,
+            "eventId": "36627382067775749052646592864347737614712410513888575491"
+        },
+        {
+            "logStreamName": "2022/01/17/[$LATEST]8919cbe7b1fc433280a56e9c341abb71",
+            "timestamp": 1642428911272,
+            "message": "2022-01-17T14:15:11.270Z\ta0fb82e6-7005-46e0-8f51-5ddf1a14cf4f\tINFO\t{\"order_id\":\"4393639542934\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4393639542934\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"Refund amount 95,00€ is greater than net payment received 50,00€\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642428904070.5893\"}\n",
+            "ingestionTime": 1642428913087,
+            "eventId": "36627388656976932862489812844558832763122991370979311624"
+        },
+        {
+            "logStreamName": "2022/01/17/[$LATEST]38abd113d6f84c8385618a68dbe0efce",
+            "timestamp": 1642430404934,
+            "message": "2022-01-17T14:40:04.934Z\t4ed26107-85f4-4c59-a330-97784b69c6d4\tINFO\t{\"order_id\":\"4376514134166\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4376514134166\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642430402789.4948\"}\n",
+            "ingestionTime": 1642430411799,
+            "eventId": "36627421966752607590137437488914704065099765369963216902"
+        },
+        {
+            "logStreamName": "2022/01/18/[$LATEST]42dd0a53bf8a4caf8837f45ba0c48f3e",
+            "timestamp": 1642490424499,
+            "message": "2022-01-18T07:20:24.499Z\t6dac8f0d-5475-4057-b823-7e328455bf25\tINFO\t{\"order_id\":\"4381895491734\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4381895491734\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"Refund amount 160,00€ is greater than net payment received 50,00€\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642490402535.7865\"}\n",
+            "ingestionTime": 1642490432110,
+            "eventId": "36628760447778599236777643956260927921944098152747106306"
+        },
+        {
+            "logStreamName": "2022/01/18/[$LATEST]42dd0a53bf8a4caf8837f45ba0c48f3e",
+            "timestamp": 1642491020803,
+            "message": "2022-01-18T07:30:20.803Z\t5ac91767-164b-4ec4-b994-75f0eda91204\tINFO\t{\"order_id\":\"4387977134230\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4387977134230\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642491003976.7179\"}\n",
+            "ingestionTime": 1642491023404,
+            "eventId": "36628773745802164101382346461406649436169719193846349828"
+        },
+        {
+            "logStreamName": "2022/01/18/[$LATEST]42dd0a53bf8a4caf8837f45ba0c48f3e",
+            "timestamp": 1642491330985,
+            "message": "2022-01-18T07:35:30.985Z\te44c6c6c-889f-4673-9cac-fcea24aa2c6c\tINFO\t{\"order_id\":\"4379505557654\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4379505557654\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"1\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642491303313.3332\"}\n",
+            "ingestionTime": 1642491333485,
+            "eventId": "36628780663091911272008094124104073892897858052453171204"
+        },
+        {
+            "logStreamName": "2022/01/18/[$LATEST]7d35e7e616be4492a4454ebeadad0157",
+            "timestamp": 1642492505180,
+            "message": "2022-01-18T07:55:05.180Z\tf125aa0b-29d5-41c6-b162-34acc52e4d73\tINFO\t{\"order_id\":\"4370748309654\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4370748309654\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642492504081.7631\"}\n",
+            "ingestionTime": 1642492513096,
+            "eventId": "36628806848515419660673135225698758833827864347598913540"
+        },
+        {
+            "logStreamName": "2022/01/18/[$LATEST]459c910b12f54fa18ca73dc299068057",
+            "timestamp": 1642495507025,
+            "message": "2022-01-18T08:45:07.025Z\t91be2916-20d0-44e3-bb46-7784bf37a6a1\tINFO\t{\"order_id\":\"4375426072726\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4375426072726\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"1\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642495505640.8467\"}\n",
+            "ingestionTime": 1642495511470,
+            "eventId": "36628873791895890143831563153798473846654625309372841991"
+        },
+        {
+            "logStreamName": "2022/01/18/[$LATEST]42e9ba2121104bf3856904e7bc775780",
+            "timestamp": 1642497904949,
+            "message": "2022-01-18T09:25:04.949Z\t7aff3e6c-6f33-457a-a180-2ff2a7575289\tINFO\t{\"order_id\":\"4378524385430\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4378524385430\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642497903717.1482\"}\n",
+            "ingestionTime": 1642497912731,
+            "eventId": "36628927267388019585177532100640534830794214249941237765"
+        },
+        {
+            "logStreamName": "2022/01/18/[$LATEST]42e9ba2121104bf3856904e7bc775780",
+            "timestamp": 1642497906766,
+            "message": "2022-01-18T09:25:06.766Z\t7aff3e6c-6f33-457a-a180-2ff2a7575289\tINFO\t{\"order_id\":\"4376477008022\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4376477008022\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642497903717.1482\"}\n",
+            "ingestionTime": 1642497912731,
+            "eventId": "36628927307908473610907674348810934932196287106307653639"
+        },
+        {
+            "logStreamName": "2022/01/18/[$LATEST]42e9ba2121104bf3856904e7bc775780",
+            "timestamp": 1642500613585,
+            "message": "2022-01-18T10:10:13.585Z\t6d010913-83c4-41d5-a8d6-ad907bc40f6e\tINFO\t{\"order_id\":\"4376334139542\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4376334139542\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642500603521.1788\"}\n",
+            "ingestionTime": 1642500621908,
+            "eventId": "36628987671989291152370478972576374908886312933737824257"
+        },
+        {
+            "logStreamName": "2022/01/18/[$LATEST]8699b7c50935433384db5fb5bcfecd30",
+            "timestamp": 1642503303495,
+            "message": "2022-01-18T10:55:03.495Z\t0035ebd2-2c03-484f-a78e-62c222653d55\tINFO\t{\"order_id\":\"4360919253142\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4360919253142\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"1\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"},{\"field\":[\"refundLineItems\",\"2\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642503302724.2765\"}\n",
+            "ingestionTime": 1642503311737,
+            "eventId": "36629047658986808131878976872724412578796429143737827333"
+        },
+        {
+            "logStreamName": "2022/01/18/[$LATEST]b1678a5fd3124018971ded478310c46a",
+            "timestamp": 1642503920301,
+            "message": "2022-01-18T11:05:20.301Z\t6158a3b3-ef7d-4f39-9a99-845e8d541fe5\tINFO\t{\"order_id\":\"4388914331798\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4388914331798\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642503903129.3106\"}\n",
+            "ingestionTime": 1642503922629,
+            "eventId": "36629061414220251056758515049327856920842507964947169284"
+        },
+        {
+            "logStreamName": "2022/01/18/[$LATEST]7d21618f379f462b96c2715b2b425dc2",
+            "timestamp": 1642510515588,
+            "message": "2022-01-18T12:55:15.587Z\t1f8fedec-5a4e-428e-bb1e-2129e436144e\tINFO\t{\"order_id\":\"4394290839702\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4394290839702\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"Refund amount 164,00€ is greater than net payment received 148,00€\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642510505192.3962\"}\n",
+            "ingestionTime": 1642510518598,
+            "eventId": "36629208494035149238196430293047580789106687127423549444"
+        },
+        {
+            "logStreamName": "2022/01/18/[$LATEST]db0022972af243c1ae2b35c3ba0ad541",
+            "timestamp": 1642510805138,
+            "message": "2022-01-18T13:00:05.138Z\t9e18e04c-0455-4bdb-b77e-709035d9af86\tINFO\t{\"order_id\":\"4370048843926\",\"errorName\":\"Error\",\"errorMessage\":\"[{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4370048843926\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10977613185174\\\",\\\"quantity\\\":1},{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10977613217942\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":\\\"0.0\\\",\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4370048843926\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"stackTrace\":\"Error: [{\\\"message\\\":\\\"Variable $input of type RefundInput! was provided invalid value for transactions.0.parentId (Invalid global id '')\\\",\\\"locations\\\":[{\\\"line\\\":2,\\\"column\\\":31}],\\\"extensions\\\":{\\\"value\\\":{\\\"orderId\\\":\\\"gid://shopify/Order/4370048843926\\\",\\\"note\\\":\\\"Refunded according to Logtex instructions\\\",\\\"notify\\\":true,\\\"refundLineItems\\\":[{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10977613185174\\\",\\\"quantity\\\":1},{\\\"lineItemId\\\":\\\"gid://shopify/LineItem/10977613217942\\\",\\\"quantity\\\":1}],\\\"transactions\\\":[{\\\"amount\\\":\\\"0.0\\\",\\\"gateway\\\":\\\"\\\",\\\"kind\\\":\\\"REFUND\\\",\\\"orderId\\\":\\\"gid://shopify/Order/4370048843926\\\",\\\"parentId\\\":\\\"\\\"}]},\\\"problems\\\":[{\\\"path\\\":[\\\"transactions\\\",0,\\\"parentId\\\"],\\\"explanation\\\":\\\"Invalid global id ''\\\",\\\"message\\\":\\\"Invalid global id ''\\\"}]}}]\",\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642510804396.4122\"}\n",
+            "ingestionTime": 1642510813409,
+            "eventId": "36629214951215921472738361281119203088483059348043923461"
+        },
+        {
+            "logStreamName": "2022/01/18/[$LATEST]7d21618f379f462b96c2715b2b425dc2",
+            "timestamp": 1642511105220,
+            "message": "2022-01-18T13:05:05.219Z\t535f4029-8111-4c57-88a2-136e8b9edc57\tINFO\t{\"order_id\":\"4359311622294\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4359311622294\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642511104423.9738\"}\n",
+            "ingestionTime": 1642511113440,
+            "eventId": "36629221643268142138204815202155963052548562900420722693"
+        },
+        {
+            "logStreamName": "2022/01/19/[$LATEST]e1e17c25206b44bb8977d42db9feef2a",
+            "timestamp": 1642583707559,
+            "message": "2022-01-19T09:15:07.558Z\t1a5e8318-76c8-46cf-af1b-230f656da8fd\tINFO\t{\"order_id\":\"4343506436246\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4343506436246\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"An error occurred while processing your request\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642583703348.6470\"}\n",
+            "ingestionTime": 1642583712359,
+            "eventId": "36630840729530998480808105990062696233813929733028446213"
+        },
+        {
+            "logStreamName": "2022/01/19/[$LATEST]338ee913e86f48b893bb9351650ea9ab",
+            "timestamp": 1642588816257,
+            "message": "2022-01-19T10:40:16.257Z\t1aa86007-eb16-4439-a50c-37eb618fe13e\tINFO\t{\"order_id\":\"4370377638038\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4370377638038\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"Refund amount 57,00€ is greater than net payment received 45,00€\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642588806666.10512\"}\n",
+            "ingestionTime": 1642588825274,
+            "eventId": "36630954657303392723805494088438374788837457525834186752"
+        },
+        {
+            "logStreamName": "2022/01/19/[$LATEST]a2d16d4d4d4a45cf843e4c558038c953",
+            "timestamp": 1642599613264,
+            "message": "2022-01-19T13:40:13.264Z\tfae93ca2-b09b-4ce9-8245-8acda36cc4a2\tINFO\t{\"order_id\":\"4396162580630\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4396162580630\"},\"refund\":null,\"userErrors\":[{\"field\":null,\"message\":\"An error occurred while processing your request\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642599603327.1924\"}\n",
+            "ingestionTime": 1642599622280,
+            "eventId": "36631195438605406475333280664358427766596115814067208192"
+        },
+        {
+            "logStreamName": "2022/01/19/[$LATEST]2ae1818b41cb440b9a8c57788b4efc6b",
+            "timestamp": 1642601408525,
+            "message": "2022-01-19T14:10:08.524Z\t5d1369a1-1fef-4eb7-b06f-0d4e666080f5\tINFO\t{\"order_id\":\"4348316942486\",\"response\":{\"refundCreate\":{\"order\":{\"id\":\"gid://shopify/Order/4348316942486\"},\"refund\":null,\"userErrors\":[{\"field\":[\"refundLineItems\",\"0\",\"quantity\"],\"message\":\"Quantity cannot refund more items than were purchased\"}]}},\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't refund order\",\"log_tracking_id\":\"1642601407571.3893\"}\n",
+            "ingestionTime": 1642601413319,
+            "eventId": "36631235474263532334618314526146629568824613543693320197"
+        }
+    ],
+    "searchedLogStreams": []
+}
