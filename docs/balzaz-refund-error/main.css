@@ -23,4 +23,5 @@ thead th:nth-child(4) {
 th,
 td {
     padding: 20px;
+    text-align: center;
 }

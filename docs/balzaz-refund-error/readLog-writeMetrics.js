@@ -1,6 +1,6 @@
 const { readFile, writeFile, appendFile } = require('fs/promises');
 const getData = async (fPath) => await readFile(fPath, 'utf8');
-const INPUT_FILE = 'refund-order-error.in';
+const INPUT_FILE = 'suivi-remboursements.in';
 const OUTPUT_FILE = 'orders.out';
 
 const cleanLog = (log) => {
@@ -13,9 +13,8 @@ const cleanLog = (log) => {
 };
 
 const writeMetrics = async (log) => {
-    const userError = log.response?.refundCreate?.userErrors[0]?.message;
     const { order_id, message, date } = log;
-    const arr = [order_id, date, message, userError];
+    const arr = [order_id, date, message];
     const row = arr.join('</td><td>');
     appendFile(OUTPUT_FILE, `<tr><td>${row}</td></tr>\n`);
 };
