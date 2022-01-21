@@ -1,0 +1,54 @@
+{
+    "events": [
+        {
+            "logStreamName": "2022/01/20/[$LATEST]7e4928db056d4a56aacfbe32ac3c8069",
+            "timestamp": 1642687504611,
+            "message": "2022-01-20T14:05:04.611Z\t74293f17-60aa-44db-869c-8815cc42b206\tINFO\t{\"order_id\":\"4359411695766\",\"errorName\":\"TypeError\",\"errorMessage\":\"Cannot read property 'node' of undefined\",\"stackTrace\":\"TypeError: Cannot read property 'node' of undefined\\n    at processReturns (/var/task/functions/business/sync_in.js:752:152)\\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\\n    at async routeFile (/var/task/functions/business/sync_in.js:219:19)\\n    at async Runtime.module.exports.handler (/var/task/functions/business/sync_in.js:138:35)\",\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't execute line\",\"log_tracking_id\":\"1642687503799.4110\"}\n",
+            "ingestionTime": 1642687512815,
+            "eventId": "36633155481140009114222045863423101646915219548056190982"
+        },
+        {
+            "logStreamName": "2022/01/20/[$LATEST]7e4928db056d4a56aacfbe32ac3c8069",
+            "timestamp": 1642687505226,
+            "message": "2022-01-20T14:05:05.226Z\t74293f17-60aa-44db-869c-8815cc42b206\tINFO\t{\"order_id\":\"4358858211478\",\"errorName\":\"TypeError\",\"errorMessage\":\"Cannot read property 'node' of undefined\",\"stackTrace\":\"TypeError: Cannot read property 'node' of undefined\\n    at processReturns (/var/task/functions/business/sync_in.js:752:152)\\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\\n    at async routeFile (/var/task/functions/business/sync_in.js:219:19)\\n    at async Runtime.module.exports.handler (/var/task/functions/business/sync_in.js:138:35)\",\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't execute line\",\"log_tracking_id\":\"1642687503799.4110\"}\n",
+            "ingestionTime": 1642687512815,
+            "eventId": "36633155494854967411318379095467568384593961874234146823"
+        },
+        {
+            "logStreamName": "2022/01/21/[$LATEST]752b51368d5945ec9c0f1c35f4f590bc",
+            "timestamp": 1642750212610,
+            "message": "2022-01-21T07:30:12.609Z\t7302554e-0d9f-4d30-be85-997f45f55b79\tINFO\t{\"order_id\":\"4353671168150\",\"errorName\":\"TypeError\",\"errorMessage\":\"Cannot read property 'node' of undefined\",\"stackTrace\":\"TypeError: Cannot read property 'node' of undefined\\n    at processReturns (/var/task/functions/business/sync_in.js:752:152)\\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\\n    at async routeFile (/var/task/functions/business/sync_in.js:219:19)\\n    at async Runtime.module.exports.handler (/var/task/functions/business/sync_in.js:138:35)\",\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't execute line\",\"log_tracking_id\":\"1642750205647.5249\"}\n",
+            "ingestionTime": 1642750214657,
+            "eventId": "36634553916247617827339550463978832311469030477882785800"
+        },
+        {
+            "logStreamName": "2022/01/21/[$LATEST]fb2aee6e75244593801fd4c81098d780",
+            "timestamp": 1642751102667,
+            "message": "2022-01-21T07:45:02.667Z\t514f115e-6057-416f-8002-a6cc44a3b55d\tINFO\t{\"order_id\":\"4342548824214\",\"errorName\":\"TypeError\",\"errorMessage\":\"Cannot read property 'node' of undefined\",\"stackTrace\":\"TypeError: Cannot read property 'node' of undefined\\n    at processReturns (/var/task/functions/business/sync_in.js:752:152)\\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\\n    at async routeFile (/var/task/functions/business/sync_in.js:219:19)\\n    at async Runtime.module.exports.handler (/var/task/functions/business/sync_in.js:138:35)\",\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't execute line\",\"log_tracking_id\":\"1642751102209.10315\"}\n",
+            "ingestionTime": 1642751111225,
+            "eventId": "36634573765181986995910393033720075269650551962535002117"
+        },
+        {
+            "logStreamName": "2022/01/21/[$LATEST]19a377c969234c3a93f584d5a6d18090",
+            "timestamp": 1642757702741,
+            "message": "2022-01-21T09:35:02.741Z\t59b9dbbe-ce92-4c28-927d-04b35af2440f\tINFO\t{\"order_id\":\"4363624939670\",\"errorName\":\"TypeError\",\"errorMessage\":\"Cannot read property 'node' of undefined\",\"stackTrace\":\"TypeError: Cannot read property 'node' of undefined\\n    at processReturns (/var/task/functions/business/sync_in.js:752:152)\\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\\n    at async routeFile (/var/task/functions/business/sync_in.js:219:19)\\n    at async Runtime.module.exports.handler (/var/task/functions/business/sync_in.js:138:35)\",\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't execute line\",\"log_tracking_id\":\"1642757702175.7510\"}\n",
+            "ingestionTime": 1642757711194,
+            "eventId": "36634720951750552442714401260806790735932883395517612037"
+        },
+        {
+            "logStreamName": "2022/01/21/[$LATEST]385fd90d5e3a4a3288fbdf7d2cd3980f",
+            "timestamp": 1642773905970,
+            "message": "2022-01-21T14:05:05.970Z\t57364acc-ff9e-48fb-ad8b-daa0fd46678d\tINFO\t{\"order_id\":\"4350788698262\",\"errorName\":\"TypeError\",\"errorMessage\":\"Cannot read property 'node' of undefined\",\"stackTrace\":\"TypeError: Cannot read property 'node' of undefined\\n    at processReturns (/var/task/functions/business/sync_in.js:752:152)\\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\\n    at async routeFile (/var/task/functions/business/sync_in.js:219:19)\\n    at async Runtime.module.exports.handler (/var/task/functions/business/sync_in.js:138:35)\",\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't execute line\",\"log_tracking_id\":\"1642773905181.7925\"}\n",
+            "ingestionTime": 1642773907253,
+            "eventId": "36635082295831874884864695843295616662553957658639663110"
+        },
+        {
+            "logStreamName": "2022/01/21/[$LATEST]385fd90d5e3a4a3288fbdf7d2cd3980f",
+            "timestamp": 1642773906413,
+            "message": "2022-01-21T14:05:06.413Z\t57364acc-ff9e-48fb-ad8b-daa0fd46678d\tINFO\t{\"order_id\":\"4350783455382\",\"errorName\":\"TypeError\",\"errorMessage\":\"Cannot read property 'node' of undefined\",\"stackTrace\":\"TypeError: Cannot read property 'node' of undefined\\n    at processReturns (/var/task/functions/business/sync_in.js:752:152)\\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\\n    at async routeFile (/var/task/functions/business/sync_in.js:219:19)\\n    at async Runtime.module.exports.handler (/var/task/functions/business/sync_in.js:138:35)\",\"level\":\"ERROR\",\"message\":\"ERROR - Couldn't execute line\",\"log_tracking_id\":\"1642773905181.7925\"}\n",
+            "ingestionTime": 1642773907253,
+            "eventId": "36635082305711105007813761894995939857337181805788987399"
+        }
+    ],
+    "searchedLogStreams": []
+}
