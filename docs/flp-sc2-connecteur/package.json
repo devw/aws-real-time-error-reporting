@@ -1,0 +1,9 @@
+{
+  "name": "statics",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "cp:csv": "aws s3 cp s3://flp-sc2-sftp-prod/receive/BP_STATUS_20211130_1700_04000.csv receive/ --profile alfred-prod "
+  }
+}

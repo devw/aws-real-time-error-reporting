@@ -1,0 +1,19 @@
+{
+    "events": [
+        {
+            "logStreamName": "2021/11/30/[$LATEST]e6b0080682f04e059044e0efddf70a80",
+            "timestamp": 1638288243801,
+            "message": "2021-11-30T16:04:03.801Z\t5da81d34-09f1-414c-aad4-46d9352a50e4\tINFO\t{\"Bucket\":\"flp-sc2-sftp-prod\",\"Key\":\"receive/BP_STATUS_20211130_1700_04000.csv\",\"level\":\"DEBUG\",\"message\":\"Received webhook\"}\n",
+            "ingestionTime": 1638288248083,
+            "eventId": "36535048686754317674245290310089116726563344660166934530"
+        },
+        {
+            "logStreamName": "2021/11/30/[$LATEST]e6b0080682f04e059044e0efddf70a80",
+            "timestamp": 1638288325467,
+            "message": "2021-11-30T16:05:25.467Z\t77251a46-6030-4d28-9523-41870abc6312\tINFO\t{\"Bucket\":\"flp-sc2-sftp-prod\",\"Key\":\"receive/BP_STATUS_20211130_1700_04000.csv\",\"level\":\"DEBUG\",\"message\":\"Received webhook\"}\n",
+            "ingestionTime": 1638288332565,
+            "eventId": "36535050507966975057447159888877580161341559545744130052"
+        }
+    ],
+    "searchedLogStreams": []
+}
